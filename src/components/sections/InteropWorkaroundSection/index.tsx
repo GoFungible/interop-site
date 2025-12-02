@@ -4,13 +4,13 @@ import SplitSection from "../../basic/splitrow/SplitSection";
 import styles from './styles.module.css';
 import GenericSection from "../../basic/GenericSection";
 
-export default function InteropProblemSection(): JSX.Element {
+export default function InteropWorkaroundSection(): JSX.Element {
   return (
     
 			<GenericSection
-				title="The Interoperability Problem"
+				title="The Interoperability Workaround"
 				subtitle="Blockchains were not designed to communicate which each other causing a liquidity fragmentation problem."
-				variant="secondary"
+				variant="default"
 				padding="large"
 				headerSpacing="large"
 				headerClassName={styles.heroHeaderContent}
@@ -32,7 +32,7 @@ export default function InteropProblemSection(): JSX.Element {
 						</div>
 					)
 				}}
-				reverse={false}
+				reverse={true}
 				spacing="large"
 			/>
 

@@ -10,7 +10,7 @@ export default function TrustModelsSection(): JSX.Element {
 		<GenericSection
 			title="Trust Models"
 			subtitle="Once we have all Components in place we can focus on Specialization on the different flavours of Captured Value. Fungible Standard defines delivers out of the box fungible tokens ready to capture different flavours of value."
-			variant="secondary"
+			variant="default"
 			padding="large"
 			headerSpacing="large"
 			headerClassName={styles.heroHeaderContent}
@@ -35,6 +35,8 @@ export default function TrustModelsSection(): JSX.Element {
 							</div>
 						)
 					}}
+					reverse={true}
+					spacing="large"
 				/>
 
 		</GenericSection>

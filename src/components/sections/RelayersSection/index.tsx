@@ -10,7 +10,7 @@ export default function RelayersSection(): JSX.Element {
 			<GenericSection
 				title="Relayers"
 				subtitle="Give me a lever long enough and a fulcrum on which to place it, and I shall move the world. Archimedes."
-				variant="default"
+				variant="secondary"
 				padding="large"
 				headerSpacing="large"
 				headerClassName={styles.heroHeaderContent}
@@ -24,7 +24,7 @@ export default function RelayersSection(): JSX.Element {
 					height: 400
 				}}
 				content={{
-					title: 'Compose',
+					title: 'Relayers + Patterns',
 					titleLevel: 2,
 					text: (
 						<div>
@@ -32,7 +32,7 @@ export default function RelayersSection(): JSX.Element {
 						</div>
 					)
 				}}
-				reverse={true}
+				reverse={false}
 				spacing="large"
 			/>
 

@@ -4,13 +4,13 @@ import SplitSection from "../../basic/splitrow/SplitSection";
 import styles from './styles.module.css';
 import GenericSection from "../../basic/GenericSection";
 
-export default function InteropModelsSection(): JSX.Element {
+export default function InteropPatternsSection(): JSX.Element {
   return (
     
 			<GenericSection
-				title="Interoperability Models"
+				title="Interoperability Patterns"
 				subtitle="Give me a lever long enough and a fulcrum on which to place it, and I shall move the world. Archimedes."
-				variant="default"
+				variant="secondary"
 				padding="large"
 				headerSpacing="large"
 				headerClassName={styles.heroHeaderContent}
@@ -24,15 +24,15 @@ export default function InteropModelsSection(): JSX.Element {
 					height: 400
 				}}
 				content={{
-					title: 'Compose',
+					title: '-',
 					titleLevel: 2,
 					text: (
 						<div>
-							<p>With several hundreds of blockchain <a href="https://chainlist.org/">networks</a>, more than 1700 <a href="https://blockspot.io/exchange/">exchanges</a>, 200 <a href="https://blockspot.io/wallet/">wallets</a> and more thn 1300 <a href="https://eips.ethereum.org/all">ERC standards</a> and the lack of role models and references the industry looks lost into the confusion which is the perfect climate for dishonest behaviour.</p>
+							<p>Patterns.</p>
 						</div>
 					)
 				}}
-				reverse={true}
+				reverse={false}
 				spacing="large"
 			/>
 
