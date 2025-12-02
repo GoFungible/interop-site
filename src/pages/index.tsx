@@ -2,17 +2,11 @@ import type {ReactNode} from 'react';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 
-import FeaturesSection from '../components/sections/FeaturesSection';
-import SpecializationSection from '../components/sections/SpecializationSection';
-import EcosystemSection from '../components/sections/EcosystemSection';
-import ValueChainSection from '../components/sections/ValueChainSection';
-import EpicFailSection from '../components/sections/EpicFailSection';
 import BackgroundImageHeader from '../components/headers/BackgroundImageHeader';
-import LayersSection from '../components/sections/LayeredSection/LayersSection';
-import StandardizationSection from '../components/sections/StandardizationSection';
-import IdentittyCrisisSection from '../components/sections/IdentittyCrisisSection';
-import ImmutabilitySection from '../components/sections/ImmutabilitySection';
-import InteropSection from '../components/sections/InteropLayer';
+import InteropProblemSection from '../components/sections/InteropProblemSection';
+import RelayersSection from '../components/sections/RelayersSection';
+import TrustModelsSection from '../components/sections/TrustModelsSection';
+import InteropModelsSection from '../components/sections/InteropModelsSection';
 
 export default function Home(): ReactNode {
   const {siteConfig} = useDocusaurusContext();
@@ -30,22 +24,10 @@ export default function Home(): ReactNode {
       />
 
 			<main>
-				<br/>
-				<br/>
-				<EpicFailSection />
-				<br/>
-        <LayersSection />
-				<EcosystemSection />
-				<br/>
-				<StandardizationSection />
-				<IdentittyCrisisSection />
-				<ImmutabilitySection />
-				<InteropSection />
-				<br/>
-				<FeaturesSection />
-				<br/>
-				<SpecializationSection />
-				<ValueChainSection />
+				<InteropProblemSection />
+				<RelayersSection />
+				<TrustModelsSection />
+				<InteropModelsSection />
       </main>
 
     </Layout>

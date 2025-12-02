@@ -4,11 +4,11 @@ import SplitSection from "../../basic/splitrow/SplitSection";
 import styles from './styles.module.css';
 import GenericSection from "../../basic/GenericSection";
 
-export default function SpecializationSection(): JSX.Element {
+export default function TrustModelsSection(): JSX.Element {
   return (
     
 		<GenericSection
-			title="Layer 6: Specialization Layer"
+			title="Trust Models"
 			subtitle="Once we have all Components in place we can focus on Specialization on the different flavours of Captured Value. Fungible Standard defines delivers out of the box fungible tokens ready to capture different flavours of value."
 			variant="secondary"
 			padding="large"

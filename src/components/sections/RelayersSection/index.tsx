@@ -4,11 +4,11 @@ import SplitSection from "../../basic/splitrow/SplitSection";
 import styles from './styles.module.css';
 import GenericSection from "../../basic/GenericSection";
 
-export default function ImmutabilitySection(): JSX.Element {
+export default function RelayersSection(): JSX.Element {
   return (
     
 			<GenericSection
-				title="Layer 3: Immutability Layer"
+				title="Relayers"
 				subtitle="Give me a lever long enough and a fulcrum on which to place it, and I shall move the world. Archimedes."
 				variant="default"
 				padding="large"

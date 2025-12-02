@@ -4,11 +4,11 @@ import SplitSection from "../../basic/splitrow/SplitSection";
 import styles from './styles.module.css';
 import GenericSection from "../../basic/GenericSection";
 
-export default function InteropSection(): JSX.Element {
+export default function InteropProblemSection(): JSX.Element {
   return (
     
 			<GenericSection
-				title="Layer 4: Interoperability Layer"
+				title="The Interoperability Problem"
 				subtitle="Give me a lever long enough and a fulcrum on which to place it, and I shall move the world. Archimedes."
 				variant="secondary"
 				padding="large"
