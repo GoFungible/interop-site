@@ -2,7 +2,7 @@ import { JSX } from "react";
 import SplitSection from "../../basic/splitrow/SplitSection";
 
 import styles from './styles.module.css';
-import GenericSection from "../GenericSection";
+import GenericSection from "../../basic/GenericSection";
 
 export default function InteropSection(): JSX.Element {
   return (

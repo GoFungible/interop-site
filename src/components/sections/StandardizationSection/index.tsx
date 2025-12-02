@@ -1,5 +1,5 @@
 import { JSX } from "react";
-import GenericSection from "../GenericSection";
+import GenericSection from "../../basic/GenericSection";
 
 import styles from './index.module.css';
 import SplitSection from "../../basic/SplitSection";
