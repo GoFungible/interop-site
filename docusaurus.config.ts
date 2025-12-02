@@ -5,7 +5,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'Fungible Standard',
+  title: 'Interop',
   tagline: 'Dinosaurs are cool',
   favicon: 'img/favicon.ico',
 
@@ -79,7 +79,7 @@ const config: Config = {
     },
 
 		navbar: {
-      title: 'Fungible Standard',
+      title: 'Interop',
       hideOnScroll: true,
       logo: {
         alt: 'Fungible Standard',
@@ -233,7 +233,7 @@ const config: Config = {
 					],
 				}, 
 			],
-			copyright: `Copyright © ${new Date().getFullYear()} Fungible Standards, Ltd.`,
+			copyright: `Copyright © ${new Date().getFullYear()} Interop, Ltd.`,
 		},
     prism: {
       theme: prismThemes.ultramin,

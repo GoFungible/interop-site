@@ -22,8 +22,8 @@ export default function Home(): ReactNode {
       description="Description will go into a meta tag in <head />">
 
 			<BackgroundImageHeader
-        backgroundImage="https://t3.ftcdn.net/jpg/12/00/36/52/360_F_1200365289_EjvAS2WLx26KOlqOCx71zdEUvjhNEncM.jpg"
-        title="Fungible Standard"
+        backgroundImage="https://scx2.b-cdn.net/gfx/news/hires/2013/subarcticlak.jpg"
+        title="Interop"
         subtitle="Simplicity is the ultimate sophistication"
         textSide="left"
         overlayOpacity={0.4}
