@@ -1,0 +1,41 @@
+[	
+	{ "region": "WEST" },
+	{ "region": "WEST", "jurisdiction": "USA", "id": "ES", "remoteFormation": "", "formationCost": "", "cryptolaw": "", "licenseCost": "" },
+	{ "region": "WEST", "jurisdiction": "EU", "id": "EU", "remoteFormation": "", "formationCost": "", "cryptolaw": "", "licenseCost": "" },
+	{ "region": "WEST", "jurisdiction": "Australia", "id": "AU", "remoteFormation": "", "formationCost": "", "cryptolaw": "", "licenseCost": "" },
+	{ "region": "WEST", "jurisdiction": "Canada", "id": "CA", "remoteFormation": "", "formationCost": "", "cryptolaw": "", "licenseCost": "" },
+	{ "region": "WEST", "jurisdiction": "UK", "id": "ES", "remoteFormation": "", "formationCost": "", "cryptolaw": "", "licenseCost": "" },
+
+	{ "region": "LATAM" },
+	{ "region": "LATAM", "jurisdiction": "El Salvador", "id": "ES", "remoteFormation": "", "formationCost": "", "cryptolaw": "", "licenseCost": "" },
+	{ "region": "LATAM", "jurisdiction": "Brazil", "id": "BR", "remoteFormation": "", "formationCost": "", "cryptolaw": "", "licenseCost": "" },
+	{ "region": "LATAM", "jurisdiction": "Cuba", "id": "CU", "remoteFormation": "", "formationCost": "", "cryptolaw": "", "licenseCost": "" },
+	{ "region": "LATAM", "jurisdiction": "Mexico", "id": "MX", "remoteFormation": "", "formationCost": "", "cryptolaw": "", "licenseCost": "" },
+	{ "region": "LATAM", "jurisdiction": "Nicaragua", "id": "NI", "remoteFormation": "", "formationCost": "", "cryptolaw": "", "licenseCost": "" },
+	{ "region": "LATAM", "jurisdiction": "Chile", "id": "CL", "remoteFormation": "", "formationCost": "", "cryptolaw": "", "licenseCost": "" },
+	{ "region": "LATAM", "jurisdiction": "Colombia", "id": "CO", "remoteFormation": "", "formationCost": "", "cryptolaw": "", "licenseCost": "" },
+	{ "region": "LATAM", "jurisdiction": "Costa Rica", "id": "CR", "remoteFormation": "", "formationCost": "", "cryptolaw": "", "licenseCost": "" },
+	{ "region": "LATAM", "jurisdiction": "Panama", "id": "PA", "remoteFormation": "", "formationCost": "", "cryptolaw": "", "licenseCost": ""  },
+	{ "region": "LATAM", "jurisdiction": "Paraguay", "id": "PY", "remoteFormation": "", "formationCost": "", "cryptolaw": "", "licenseCost": ""  },
+	{ "region": "LATAM", "jurisdiction": "Peru", "id": "PE", "remoteFormation": "", "formationCost": "", "cryptolaw": "", "licenseCost": ""  },
+	{ "region": "LATAM", "jurisdiction": "Uruguay", "id": "UR", "remoteFormation": "", "formationCost": "", "cryptolaw": "", "licenseCost": "" },
+	{ "region": "LATAM", "jurisdiction": "Guatemala", "id": "GT", "remoteFormation": "", "formationCost": "", "cryptolaw": "", "licenseCost": "" },
+	{ "region": "LATAM", "jurisdiction": "Honduras", "id": "HN", "remoteFormation": "", "formationCost": "", "cryptolaw": "", "licenseCost": "" },
+	{ "region": "LATAM", "jurisdiction": "Bolivia", "id": "BO", "remoteFormation": "", "formationCost": "", "cryptolaw": "", "licenseCost": "" },
+	{ "region": "LATAM", "jurisdiction": "Dominicana", "id": "DO", "remoteFormation": "", "formationCost": "", "cryptolaw": "", "licenseCost": "" },
+	{ "region": "LATAM", "jurisdiction": "Ecuador", "id": "EC", "remoteFormation": "", "formationCost": "", "cryptolaw": "", "licenseCost": "" },
+
+	{ "region": "ASIA" },
+	{ "region": "ASIA", "jurisdiction": "Japan", "id": "ES", "remoteFormation": "", "formationCost": "", "cryptolaw": "", "licenseCost": "" },
+	{ "region": "ASIA", "jurisdiction": "Hong Kong", "id": "ES", "remoteFormation": "", "formationCost": "", "cryptolaw": "", "licenseCost": "" },
+	{ "region": "ASIA", "jurisdiction": "Taiwan", "id": "ES", "remoteFormation": "", "formationCost": "", "cryptolaw": "", "licenseCost": "" },
+
+	{ "region": "CARIBE" },
+	{ "region": "CARIBE", "jurisdiction": "Anguilla", "id": "AN", "remoteFormation": "", "formationCost": "", "cryptolaw": "", "licenseCost": "" },
+	{ "region": "CARIBE", "jurisdiction": "Bahamas", "id": "BH", "remoteFormation": "", "formationCost": "", "cryptolaw": "", "licenseCost": "" },
+	{ "region": "CARIBE", "jurisdiction": "BVI", "id": "BV", "remoteFormation": "", "formationCost": "", "cryptolaw": "", "licenseCost": "" },
+	{ "region": "CARIBE", "jurisdiction": "Belize", "id": "ES", "remoteFormation": "", "formationCost": "", "cryptolaw": "", "licenseCost": "" },
+	{ "region": "CARIBE", "jurisdiction": "Cayman", "id": "CY", "remoteFormation": "", "formationCost": "", "cryptolaw": "", "licenseCost": "" },
+	{ "region": "CARIBE", "jurisdiction": "SVG", "id": "SV", "remoteFormation": "", "formationCost": "", "cryptolaw": "", "licenseCost": "" }
+	
+]

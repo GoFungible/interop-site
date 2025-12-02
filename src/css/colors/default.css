@@ -1,0 +1,143 @@
+/* You can override the default Infima variables here. */
+:root {
+  /* Primary Colors */
+  --ifm-color-primary: #2e8555;
+  --ifm-color-primary-dark: #29784c;
+  --ifm-color-primary-darker: #277148;
+  --ifm-color-primary-darkest: #205d3b;
+  --ifm-color-primary-light: #33925d;
+  --ifm-color-primary-lighter: #359962;
+  --ifm-color-primary-lightest: #3cad6e;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+
+  /* Secondary Colors */
+  --ifm-color-secondary: #ebedf0;
+  --ifm-color-secondary-dark: #d4d6d8;
+  --ifm-color-secondary-darker: #c8c9cb;
+  --ifm-color-secondary-darkest: #a4a6a8;
+  --ifm-color-secondary-light: #eef0f2;
+  --ifm-color-secondary-lighter: #f0f2f4;
+  --ifm-color-secondary-lightest: #f5f6f7;
+
+  /* Success Colors */
+  --ifm-color-success: #00a800;
+  --ifm-color-success-dark: #009700;
+  --ifm-color-success-darker: #008f00;
+  --ifm-color-success-darkest: #007600;
+  --ifm-color-success-light: #00b900;
+  --ifm-color-success-lighter: #00c100;
+  --ifm-color-success-lightest: #00da00;
+
+  /* Info Colors */
+  --ifm-color-info: #54c7ec;
+  --ifm-color-info-dark: #3cb9e8;
+  --ifm-color-info-darker: #2fb3e6;
+  --ifm-color-info-darkest: #1794d0;
+  --ifm-color-info-light: #6cd5f0;
+  --ifm-color-info-lighter: #7adaf1;
+  --ifm-color-info-lightest: #a1e6f6;
+
+  /* Warning Colors */
+  --ifm-color-warning: #ffba00;
+  --ifm-color-warning-dark: #e6a700;
+  --ifm-color-warning-darker: #d99e00;
+  --ifm-color-warning-darkest: #b38200;
+  --ifm-color-warning-light: #ffc31a;
+  --ifm-color-warning-lighter: #ffc833;
+  --ifm-color-warning-lightest: #ffd666;
+
+  /* Danger Colors */
+  --ifm-color-danger: #ff3750;
+  --ifm-color-danger-dark: #ff1c38;
+  --ifm-color-danger-darker: #ff0e2c;
+  --ifm-color-danger-darkest: #f3001e;
+  --ifm-color-danger-light: #ff5268;
+  --ifm-color-danger-lighter: #ff6679;
+  --ifm-color-danger-lightest: #ff8a99;
+
+  /* Background Colors */
+  --ifm-background-color: #ffffff;
+  --ifm-background-surface-color: #f6f7f8;
+  
+  /* Text Colors */
+  --ifm-font-color-base: #1c1e21;
+  --ifm-font-color-base-inverse: #ffffff;
+  --ifm-font-color-secondary: #606770;
+  
+  /* Border Colors */
+  --ifm-border-color: #dadde1;
+  --ifm-border-radius: 8px;
+  
+  /* Code Colors */
+  --ifm-code-background: rgba(27, 31, 35, 0.05);
+  --ifm-code-color: #476582;
+  --ifm-pre-background: #f6f8fa;
+  --ifm-pre-color: #24292e;
+  
+  /* Navbar Colors */
+  --ifm-navbar-background-color: #ffffff;
+  --ifm-navbar-link-color: #1c1e21;
+  --ifm-navbar-link-hover-color: var(--ifm-color-primary);
+  
+  /* Footer Colors */
+  --ifm-footer-background-color: #f5f6f7;
+  --ifm-footer-color: #1c1e21;
+  --ifm-footer-link-color: var(--ifm-color-emphasis-700);
+  --ifm-footer-link-hover-color: var(--ifm-color-primary);
+  
+  /* Card Colors */
+  --ifm-card-background-color: #ffffff;
+  --ifm-card-border-color: var(--ifm-border-color);
+  
+  /* Hero Colors */
+  --ifm-hero-background-color: var(--ifm-color-primary);
+  --ifm-hero-text-color: #ffffff;
+  
+  /* Custom Colors */
+  --ifm-color-accent: #8a2be2;
+  --ifm-color-gradient-start: #667eea;
+  --ifm-color-gradient-end: #764ba2;
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+/* Dark Mode Colors */
+[data-theme='dark'] {
+  --ifm-color-primary: #4ecca3;
+  --ifm-color-primary-dark: #3ac495;
+  --ifm-color-primary-darker: #33ba8d;
+  --ifm-color-primary-darkest: #2a9974;
+  --ifm-color-primary-light: #62d4b1;
+  --ifm-color-primary-lighter: #6dd8b7;
+  --ifm-color-primary-lightest: #8ce2c8;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+
+  --ifm-background-color: #1a1a1a;
+  --ifm-background-surface-color: #242424;
+  
+  --ifm-font-color-base: #e3e3e3;
+  --ifm-font-color-base-inverse: #1a1a1a;
+  --ifm-font-color-secondary: #b0b0b0;
+  
+  --ifm-border-color: #404040;
+  
+  /* Code Colors - Dark */
+  --ifm-code-background: rgba(255, 255, 255, 0.1);
+  --ifm-code-color: #c9d1d9;
+  --ifm-pre-background: #0d1117;
+  --ifm-pre-color: #c9d1d9;
+  
+  /* Navbar Colors - Dark */
+  --ifm-navbar-background-color: #242424;
+  --ifm-navbar-link-color: #e3e3e3;
+  
+  /* Footer Colors - Dark */
+  --ifm-footer-background-color: #242424;
+  --ifm-footer-color: #e3e3e3;
+  
+  /* Card Colors - Dark */
+  --ifm-card-background-color: #242424;
+  --ifm-card-border-color: #404040;
+  
+  /* Hero Colors - Dark */
+  --ifm-hero-background-color: var(--ifm-color-primary-darkest);
+}

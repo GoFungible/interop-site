@@ -1,0 +1,90 @@
+/* src/components/Card.css */
+.card {
+  background: var(--ifm-card-background-color);
+  border: 1px solid var(--ifm-color-emphasis-200);
+  border-radius: var(--ifm-card-border-radius);
+  padding: var(--ifm-card-vertical-spacing) var(--ifm-card-horizontal-spacing);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  transition: all 0.3s ease;
+  box-shadow: var(--ifm-global-shadow-lw);
+  text-decoration: none;
+  color: inherit;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--ifm-global-shadow-md);
+  border-color: var(--ifm-color-primary);
+  text-decoration: none;
+  color: inherit;
+}
+
+.card--clickable {
+  cursor: pointer;
+  background: transparent;
+  border: 1px solid var(--ifm-color-emphasis-200);
+}
+
+.card--clickable:hover {
+  background: var(--ifm-color-emphasis-100);
+}
+
+.card__icon {
+  margin-bottom: 1rem;
+  color: var(--ifm-color-primary);
+}
+
+.card__image {
+	margin: auto;
+  margin-bottom: 1rem;
+  color: var(--ifm-color-primary);
+}
+
+.card__title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+  color: var(--ifm-heading-color);
+}
+
+.card__description {
+  color: var(--ifm-font-color-base);
+  margin-bottom: 1.5rem;
+  flex-grow: 1;
+}
+
+.card__button {
+  align-self: flex-start;
+	margin: auto;
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background: var(--ifm-color-primary);
+  color: white;
+  border-radius: 4px;
+  font-size: 0.875rem;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+/* Variants */
+.card--primary {
+  border-top: 4px solid var(--ifm-color-primary);
+}
+
+.card--secondary {
+  border-top: 4px solid var(--ifm-color-secondary);
+}
+
+.card--success {
+  border-top: 4px solid var(--ifm-color-success);
+}
+
+.card--warning {
+  border-top: 4px solid var(--ifm-color-warning);
+}
+
+.card--danger {
+  border-top: 4px solid var(--ifm-color-danger);
+}

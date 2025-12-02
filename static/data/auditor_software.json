@@ -1,0 +1,12 @@
+[
+	{"id": "SLI", "name": "Slither" },
+	{"id": "MYT", "name": "Mythril" },
+	{"id": "SEC", "name": "Securify" },
+	{"id": "ECH", "name": "Echidna" },
+	{"id": "SGR", "name": "Semantic Grep" },
+	{"id": "SLM", "name": "Solidity Metrics" },
+	{"id": "SLS", "name": "Solidity Scan" },
+	{"id": "GAM", "name": "Gambit" },
+	{"id": "MYX", "name": "Mythx" },
+	{"id": "SLD", "name": "Solodit" }
+]

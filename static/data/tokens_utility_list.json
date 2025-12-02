@@ -1,0 +1,93 @@
+[
+	{"peg": "fiat", "asset": "usd", "collateral": "real state", "items": [
+		{"name": "Real USD", "url": "https://www.tangible.store/" }
+	]},
+	{"peg": "fiat", "asset": "usd", "collateral": "usd", "items": [
+		{"name": "TrueUSD", "url": "https://www.tusd.io/trueusd" },
+		{"name": "ZUSD", "url": "https://stablecoin.z.com/zusd/" }
+	]},
+	{"peg": "fiat", "asset": "usd", "collateral": "basket", "items": [
+		{"name": "USDT", "url": "https://tether.to/en/transparency/#usdt" },
+		{"name": "USDC", "url": "https://www.circle.com/en/usdc" },
+		{"name": "BUSD", "url": "https://www.binance.com/en/busd" },
+		{"name": "FRAX", "url": "https://frax.finance/" },
+		{"name": "MIM", "url": "https://abracadabra.money/" },
+		{"name": "Pax Dollar", "url": "https://paxos.com/usdp/" },
+		{"name": "USDJ", "url": "https://just.network/" },
+		{"name": "Gemini USD", "url": "https://www.gemini.com/dollar" },
+		{"name": "USDP", "url": "https://paxos.com/usdp/" },
+		{"name": "Palau", "url": "https://www.palaugov.pw/stablecoin/" },
+		{"name": "FDUSD", "url": "https://firstdigitallabs.com/" },
+		{"name": "PYUSD", "url": "https://www.paypal.com/us/digital-wallet/manage-money/crypto/pyusd" }
+	]},
+	{"peg": "fiat", "asset": "usd", "collateral": "basket crypto", "items": [
+		{"name": "DAI", "url": "https://makerdao.com/en/" },
+		{"name": "CUSD", "url": "https://celo.org/" },
+		{"name": "USDD", "url": "https://usdd.io/#/" },
+		{"name": "USB", "url": "https://stabolut.com/" },
+		{"name": "USDe", "url": "https://www.ethena.fi/" },
+		{"name": "Raft", "url": "https://raft.fi/" },
+		{"name": "eUSD", "url": "https://lybra.finance/" }
+	]},
+	{"peg": "fiat", "asset": "usd", "collateral": "endogenous crypto", "items": [
+		{"name": "TerraUSD", "url": "https://www.terra.money/" }
+	]},
+	{"peg": "fiat", "asset": "usd", "collateral": "algorithm", "items": [
+		{"name": "Fei", "url": "https://fei.money/" }
+	]},
+	{"peg": "fiat", "asset": "eur", "collateral": "eur", "items": [
+		{"name": "EUROC", "url": "https://www.circle.com/en/euro-coin" },
+		{"name": "EUROe", "url": "https://www.euroe.com/" }
+	]},
+	{"peg": "fiat", "asset": "gbp", "collateral": "gbp", "items": [
+		{"name": "GBPT", "url": "https://poundtoken.io/" }
+	]},
+	{"peg": "fiat", "asset": "sgd", "collateral": "sgd", "items": [
+		{"name": "XSGD", "url": "https://www.straitsx.com/xsgd" }
+	]},
+	{"peg": "fiat", "asset": "rub", "collateral": "sgd", "items": [
+		{"name": "IDRT", "url": "https://www.straitsx.com/xsgd" },
+		{"name": "BIDR", "url": "https://www.tokocrypto.com/" }
+	]},
+	{"peg": "fiat", "asset": "brl", "collateral": "sgd", "items": [
+		{"name": "BRZ", "url": "https://www.brztoken.io/" }
+	]},
+	{"peg": "fiat", "asset": "mxn", "collateral": "mxn", "items": [
+		{"name": "MXNT", "url": "https://tether.to/en/transparency/#mxnt" }
+	]},
+
+	{"peg": "crypto", "asset": "ETH", "collateral": "ETH", "items": [
+		{"name": "frxETH", "url": "https://frax.finance/" }
+	]},
+
+	{"peg": "commodities", "asset": "gold", "collateral": "gold", "items": [
+		{"name": "PAXG", "url": "https://paxos.com/paxgold/" },
+		{"name": "GLD", "url": "https://www.goldario.com/" },
+		{"name": "MCAU,", "url": "https://meld.gold/" },
+		{"name": "AABBG", "url": "https://aabbgoldtoken.com/aabbg/" },
+		{"name": "NNN", "url": "https://novemgold.com/en/tokens/nnn.html" },
+		{"name": "AWG", "url": "https://www.agagoldy.com/" },
+		{"name": "PMGT", "url": "https://pmgt.io/" },
+		{"name": "CTLX", "url": "https://cashtelex.com/" },
+		{"name": "XAUT", "url": "https://gold.tether.to/" },
+		{"name": "DGX", "url": "https://digix.global/dgx" },
+		{"name": "CACHE", "url": "https://cache.gold/" },
+		{"name": "RBZ GBDT", "url": "https://www.rbz.co.zw/documents/Gold-backed_Digital_Token/August/RBZ_Gold-backed_Digital_Tokens_Issue_12_Results_03_August_2023.pdf" }
+	]},
+	{"peg": "commodities", "asset": "gold", "collateral": "PAXG", "items": [
+		{"name": "GODL", "url": "https://godl.gold/" }
+	]},
+	{"peg": "commodities", "asset": "silver", "collateral": "silver", "items": [
+		{"name": "SLVT", "url": "https://godl.gold/" }
+	]},
+	{"peg": "commodities", "asset": "oil", "collateral": "oil", "items": [
+		{"name": "CRUDE", "url": "https://crudeoil.finance/" },
+		{"name": "PDX", "url": "https://pdxcoin.io/" },
+		{"name": "PTR", "url": "https://www.petro.gob.ve/en/" },
+		{"name": "FIX", "url": "https://finamatrix.net/fix/" }
+	]},
+	{"peg": "commodities", "asset": "food", "collateral": "food", "items": [
+		{"name": "BANANA", "url": "https://www.cyberkongz.com/" }
+	]}
+
+]

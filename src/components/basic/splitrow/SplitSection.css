@@ -1,0 +1,138 @@
+/* src/components/splitSection/SplitSection.css */
+.split-section {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.split-section__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  align-items: center;
+  /*max-width: 1200px;*/
+  margin: 0 auto;
+}
+
+/* Image Styles */
+.split-section__image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.split-section__image img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Content Styles */
+.split-section__content {
+  display: flex;
+  flex-direction: column;
+}
+
+.split-section__title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  color: var(--ifm-heading-color);
+  line-height: 1.3;
+}
+
+.split-section__text {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: var(--ifm-font-color-base);
+}
+
+.split-section__text p {
+  margin-bottom: 1rem;
+}
+
+.split-section__text p:last-child {
+  margin-bottom: 0;
+}
+
+/* Reverse layout */
+.split-section--reverse .split-section__container {
+  direction: rtl;
+}
+
+.split-section--reverse .split-section__content {
+  direction: ltr;
+}
+
+/* Vertical Alignment */
+.split-section--top .split-section__container {
+  align-items: flex-start;
+}
+
+.split-section--center .split-section__container {
+  align-items: center;
+}
+
+.split-section--bottom .split-section__container {
+  align-items: flex-end;
+}
+
+/* Spacing Variants */
+.split-section--spacing-none .split-section__container {
+  gap: 0;
+}
+
+.split-section--spacing-small .split-section__container {
+  gap: 1.5rem;
+}
+
+.split-section--spacing-medium .split-section__container {
+  gap: 3rem;
+}
+
+.split-section--spacing-large .split-section__container {
+  gap: 4rem;
+}
+
+/* Responsive Design */
+@media (max-width: 996px) {
+  .split-section__container {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  
+  .split-section__title {
+    font-size: 1.75rem;
+  }
+  
+  .split-section--reverse .split-section__container {
+    direction: ltr;
+  }
+}
+
+@media (max-width: 768px) {
+  .split-section__title {
+    font-size: 1.5rem;
+  }
+  
+  .split-section__text {
+    font-size: 1rem;
+  }
+  
+  .split-section--spacing-medium .split-section__container {
+    gap: 2rem;
+  }
+  
+  .split-section--spacing-large .split-section__container {
+    gap: 2.5rem;
+  }
+}
+
+/* Optional: Add some animations */
+.split-section__image img {
+  transition: transform 0.3s ease;
+}
+
+.split-section__image img:hover {
+  transform: scale(1.02);
+}

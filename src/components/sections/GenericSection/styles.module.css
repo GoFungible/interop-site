@@ -1,0 +1,234 @@
+/* GenericSection.module.css */
+
+/*********************************************************************************************************************************/
+/************************************************************* Section ***********************************************************/
+/*********************************************************************************************************************************/
+.section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (max-width: 480px) {
+	.section {
+		padding: 2rem 0;
+	}
+}
+
+/* Padding variants */
+.padding-none {
+  padding: 0;
+}
+
+.padding-small {
+  padding: 1.5rem 0;
+}
+
+.padding-medium {
+  padding: 3rem 0;
+}
+
+.padding-large {
+  padding: 5rem 0;
+}
+
+/* Responsive design */
+@media (max-width: 996px) {
+  .padding-small {
+    padding: 1rem 0;
+  }
+  
+  .padding-medium {
+    padding: 2rem 0;
+  }
+  
+  .padding-large {
+    padding: 3rem 0;
+  }  
+}
+
+/* Background variants */
+.variant-default {
+  background: transparent;
+}
+
+.variant-primary {
+  background: var(--ifm-color-primary);
+  color: var(--ifm-color-primary-contrast-foreground);
+}
+
+.variant-secondary {
+  background: var(--ifm-color-secondary);
+  color: var(--ifm-color-secondary-contrast-foreground);
+}
+
+.variant-light {
+  background: var(--ifm-color-emphasis-100);
+  color: var(--ifm-color-emphasis-900);
+}
+
+.variant-dark {
+  background: var(--ifm-color-emphasis-900);
+  color: var(--ifm-color-emphasis-100);
+}
+
+.variant-gradient {
+  background: linear-gradient(135deg, var(--ifm-color-primary) 0%, var(--ifm-color-secondary) 100%);
+  color: var(--ifm-color-primary-contrast-foreground);
+}
+
+/*********************************************************************************************************************************/
+/************************************************************* Header ************************************************************/
+/*********************************************************************************************************************************/
+/* Header Wrapper - Ensures proper centering */
+.headerWrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 0 var(--ifm-spacing-horizontal);
+}
+
+/* Header styles with enhanced customization */
+.header {
+  width: 100%;
+  max-width: var(--ifm-container-width);
+}
+
+/* Header alignment variants */
+.header-align-left {
+  text-align: left;
+  align-items: flex-start;
+}
+
+.header-align-center {
+  text-align: center;
+  align-items: center;
+}
+
+.header-align-right {
+  text-align: right;
+  align-items: flex-end;
+}
+
+.header-align-left,
+.header-align-center,
+.header-align-right {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Header spacing variants */
+.header-spacing-none {
+  margin-bottom: 0;
+}
+
+.header-spacing-small {
+  margin-bottom: 1rem;
+}
+
+.header-spacing-medium {
+  margin-bottom: 2rem;
+}
+
+.header-spacing-large {
+  margin-bottom: 3rem;
+}
+
+/* Responsive design */
+@media (max-width: 996px) { 
+  .headerWrapper {
+    padding: 0 var(--ifm-spacing-horizontal);
+  }
+  
+  .header-spacing-small {
+    margin-bottom: 0.75rem;
+  }
+  
+  .header-spacing-medium {
+    margin-bottom: 1.5rem;
+  }
+  
+  .header-spacing-large {
+    margin-bottom: 2rem;
+  }
+  
+}
+
+@media (max-width: 576px) {
+  .headerWrapper {
+    padding: 0 1rem;
+  }
+  
+  .header-spacing-small {
+    margin-bottom: 0.5rem;
+  }
+  
+  .header-spacing-medium {
+    margin-bottom: 1rem;
+  }
+  
+  .header-spacing-large {
+    margin-bottom: 1.5rem;
+  }
+
+  .header-align-left,
+	.header-align-center,
+	.header-align-right {
+		text-align: center;
+		align-items: center;
+	}
+}
+
+/*********************************************************************************************************************************/
+/************************************************************** Title ************************************************************/
+/*********************************************************************************************************************************/
+.title {
+	font-size: 2.5rem;
+	font-weight: 700;
+	color: #2c3e50;
+	margin-bottom: 1rem;
+}
+
+.subtitle {
+	font-size: 1.5rem;
+	color: #6c757d;
+	max-width: 80%;
+	margin: 0 auto;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+	.title {
+		font-size: 2rem;
+	}
+}
+
+
+
+/*********************************************************************************************************************************/
+/************************************************************ Container **********************************************************/
+/*********************************************************************************************************************************/
+
+/* Container styles */
+.container {
+  display: grid;
+	gap: 3rem;
+	max-width: var(--ifm-container-width);
+	margin: 0 auto;
+	padding: 0 var(--ifm-spacing-horizontal);
+	width: 100%;
+}
+
+@media (max-width: 480px) {
+	.container {
+		padding: 0 1rem;
+	}
+}
+
+/* Responsive design */
+@media (max-width: 996px) {
+	.container {
+    padding: 0 var(--ifm-spacing-horizontal);
+  }
+}

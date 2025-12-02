@@ -1,0 +1,17 @@
+[
+	{ "type": "Identification", "name": "Access", "description": "" },
+	{ "type": "Identification", "name": "Governance", "description": "" },
+	{ "type": "Financial Services", "name": "Liquidity Provision", "description": "" },
+	{ "type": "Financial Services", "name": "Profit-Sharing", "description": "" },
+	{ "type": "Financial Services", "name": "Mining", "description": "" },
+	{ "type": "Financial Services", "name": "Staking", "description": "" },
+	{ "type": "Financial Services", "name": "Launchpad", "description": "" },
+	{ "type": "Currency Functions", "name": "Medium of Exchange", "description": "fundamental utility" },
+	{ "type": "Currency Functions", "name": "Unit of Account", "description": "" },
+	{ "type": "Currency Functions", "name": "Reserve of Value", "description": "" },
+	{ "type": "Currency Services", "name": "Payments", "description": "" },
+	{ "type": "Currency Services", "name": "Discounts", "description": "" },
+	{ "type": "Currency Services", "name": "Cards", "description": "" },
+	{ "type": "Currency Services", "name": "Transfers", "description": "" },
+	{ "type": "Currency Services", "name": "Lending", "description": "" }
+]

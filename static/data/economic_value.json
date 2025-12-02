@@ -1,0 +1,11 @@
+[
+	{ "theory": "Land Theory of Value", "author": "Physiocrats", "type": "Objective", "fundamentals": "" },
+	{ "theory": "Objective/Intrinsic Theory of Value", "author": "Adam Smith", "type": "Objective", "fundamentals": "Value that something has “in itself”" },
+	{ "theory": "Labor Theory of Value", "author": "Ricardo", "type": "Objective", "fundamentals": "Correlation between the value of a good and the labor required to produce the good" },
+	{ "theory": "Use Value / Exchange Value Theory", "author": "Marx", "type": "Objective", "fundamentals": "Exchange-value is the quantitative aspect of value, as opposed to “use-value” which is the qualitative aspect of value, and constitutes the substratum of the price of a commodity." },
+	{ "theory": "Commodity’s costs of production", "author": "John Stuart Mill", "type": "Objective", "fundamentals": "" },
+	{ "theory": "Subjective Theory of Value", "author": "Menger", "type": "Subjective", "fundamentals": "The subjective theory of value believes that a good's value depends on the consumers wants and needs" },
+	{ "theory": "Marginal Utility Theory of Value", "author": "Jevons", "type": "Subjective", "fundamentals": "Marginal utility" },
+	{ "theory": "Monetary theory of value", "author": "Keynes", "type": "Objective", "fundamentals": "Monetary theory posits that a change in money supply is a key driver of economic activity. MV = PQ." },
+	{ "theory": "Power Theory of Value", "author": "Jonathan Nitzan Shimshon Bichler", "type": "Objective", "fundamentals": "The power theory of value approaches the question of valuation from the top down, by which the dominant owners of the bulk of societal wealth, determine the value of their assets." }
+]

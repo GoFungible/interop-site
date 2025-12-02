@@ -1,0 +1,58 @@
+/* src/components/faq/FAQSearch.css */
+.faq-search {
+  margin-bottom: 2rem;
+}
+
+.faq-search__input-wrapper {
+  position: relative;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.faq-search__icon {
+  position: absolute;
+  left: 1rem;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--ifm-color-emphasis-600);
+}
+
+.faq-search__input {
+  width: 100%;
+  padding: 0.75rem 1rem 0.75rem 2.5rem;
+  border: 1px solid var(--faq-border-color);
+  border-radius: 6px;
+  font-size: 1rem;
+  transition: all 0.2s ease;
+}
+
+.faq-search__input:focus {
+  outline: none;
+  border-color: var(--faq-primary-color);
+  box-shadow: 0 0 0 3px rgba(var(--ifm-color-primary-rgb), 0.1);
+}
+
+.faq-search__clear {
+  position: absolute;
+  right: 0.75rem;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  color: var(--ifm-color-emphasis-600);
+  cursor: pointer;
+  padding: 0.25rem;
+  border-radius: 2px;
+}
+
+.faq-search__clear:hover {
+  color: var(--ifm-color-emphasis-800);
+  background: var(--faq-bg-hover);
+}
+
+.faq-search__results {
+  text-align: center;
+  margin-top: 0.5rem;
+  font-size: 0.875rem;
+  color: var(--ifm-color-emphasis-600);
+}

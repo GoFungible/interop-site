@@ -1,0 +1,7 @@
+[
+	{ "type": "Unbacked Tokens", "value": "", "consensus": "", "interaction": "", "distribution": "", "sample": "" },
+	{ "type": "Asset Backed Tokens", "value": "Subjective", "consensus": "PoO", "interaction": ">>> Captured >>>", "distribution": "No Minted", "sample": "tokens" },
+	{ "type": "Utility Coin", "value": "Any", "consensus": "Any", "interaction": "≠≠≠ Independent ≠≠≠", "distribution": "PoS / PoW", "sample": "coins" },
+	{ "type": "Objective Utility Token", "value": "Objective", "consensus": "PoPW / XToEarn", "interaction": "<<< Created <<<", "distribution": "Minted On Supply", "sample": "tokens" },
+	{ "type": "Subjective Utility Tokens", "value": "Subjective", "consensus": "PoO", "interaction": ">>> Captured >>>", "distribution": "Minted On Demand", "sample": "tokens" }
+]

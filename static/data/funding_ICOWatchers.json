@@ -1,0 +1,21 @@
+[
+	{"name": "ICOHolder", "url": "https://icoholder.com/", "plans": "https://icoholder.com/en/v2/ico/create", "free": "yes"},
+	{"name": "TopICOList", "url": "https://topicolist.com/", "plans": "https://topicolist.com/submit-ico-details/", "free": "yes"},
+	{"name": "ICOMarks", "url": "https://icomarks.com/", "plans": "https://icomarks.com/submit", "free": "yes"},
+	{"name": "CoinSniper", "url": "https://coinsniper.net/", "plans": "https://coinsniper.net/submit", "free": "yes"},
+	{"name": "ICOHigh", "url": "https://icohigh.net/", "plans": "https://icohigh.net/submit-ico.html", "free": "yes"},
+	{"name": "ICO Hot List", "url": "https://www.icohotlist.com/", "plans": "https://www.icohotlist.com/submit-ico/", "free": "yes"},
+	{"name": "ICODrops", "url": "https://icodrops.com/", "plans": "https://icodrops.com/submit-ico/", "free": "yes"},
+	{"name": "ICOBench", "url": "https://icobench.com/", "plans": "https://icobench.com/submit-ico/", "free": "yes"},
+	{"name": "ICO Watch List", "url": "https://icowatchlist.com/", "plans": "https://icowatchlist.com/add-ico/", "free": "yes"},
+	{"name": "CMC", "url": "https://coinmarketcap.com/ico-calendar/", "plans": "", "free": ""},
+	{"name": "ICOCountdown", "url": "https://www.icocountdown.com/", "plans": "", "free": ""},
+	{"name": "CrushCrypto", "url": "https://www.crushcrypto.com/", "plans": "", "free": ""},
+	{"name": "ICOHunter", "url": "https://www.icohunter.net/", "plans": "", "free": ""},
+	{"name": "ICO Listing Online", "url": "https://www.icolistingonline.com/", "plans": "https://www.icolistingonline.com/submit-ico/", "free": "no"},
+	{"name": "FoundICO", "url": "https://foundico.com/", "plans": "https://foundico.com/advertise/", "free": "no"},
+	{"name": "Coinhunt", "url": "https://coinhunt.cc/", "plans": "https://coinhunt.cc/promote", "free": "no"},
+	{"name": "ListingSpy", "url": "https://listingspy.net/", "plans": "https://listingspy.net/crypto-ads", "free": "no"},
+	{"name": "IDO Presales", "url": "https://idopresales.com/", "plans": "https://idopresales.com/crypto-marketing-promotion-service/", "free": "no"},
+	{"name": "icolink", "url": "https://icolink.com/", "plans": "https://icolink.com/marketing-packages.html", "free": "no"}
+]

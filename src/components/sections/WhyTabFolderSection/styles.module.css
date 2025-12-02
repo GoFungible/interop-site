@@ -1,0 +1,134 @@
+
+/* src/components/tabfolder/TabFolder.css */
+.tabfolder {
+  --tab-bg-color: var(--ifm-background-color);
+  --tab-border-color: var(--ifm-color-emphasis-200);
+  --tab-active-color: var(--ifm-color-primary);
+  --tab-hover-bg: var(--ifm-color-emphasis-100);
+  --tab-disabled-color: var(--ifm-color-emphasis-400);
+}
+
+.tabfolder__container {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  gap: 0;
+  min-height: 300px;
+}
+
+/* Tabs Navigation */
+.tabfolder__tabs {
+  display: flex;
+  flex-direction: column;
+  border-right: 1px solid var(--tab-border-color);
+  background: var(--tab-bg-color);
+}
+
+.tabfolder__tab {
+  padding: 0.75rem 1rem;
+  border: none;
+  border-right: 2px solid transparent;
+  background: transparent;
+  color: var(--ifm-font-color-base);
+  text-align: left;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-size: 0.9rem;
+}
+
+.tabfolder__tab:hover:not(.tabfolder__tab--disabled) {
+  background: var(--tab-hover-bg);
+  border-right-color: var(--tab-active-color);
+}
+
+.tabfolder__tab--active {
+  background: var(--tab-hover-bg);
+  border-right-color: var(--tab-active-color);
+  color: var(--tab-active-color);
+  font-weight: 600;
+}
+
+.tabfolder__tab--disabled {
+  color: var(--tab-disabled-color);
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+/* Content Area */
+.tabfolder__content {
+  padding: 1.5rem;
+  background: var(--tab-bg-color);
+  overflow-y: auto;
+}
+
+.tabfolder__empty {
+  color: var(--tab-disabled-color);
+  text-align: center;
+  padding: 2rem;
+}
+
+/* Variants */
+.tabfolder--bordered .tabfolder__container {
+  border: 1px solid var(--tab-border-color);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.tabfolder--bordered .tabfolder__tabs {
+  border-right: 1px solid var(--tab-border-color);
+  border-radius: 8px 0 0 8px;
+}
+
+.tabfolder--pills .tabfolder__tab {
+  margin: 0.25rem 0.5rem;
+  border-radius: 6px;
+  border-right: none;
+}
+
+.tabfolder--pills .tabfolder__tab--active {
+  background: var(--tab-active-color);
+  color: white;
+}
+
+.tabfolder--pills .tabfolder__tab:hover:not(.tabfolder__tab--disabled) {
+  background: var(--tab-active-color);
+  color: white;
+  opacity: 0.9;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .tabfolder__container {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr;
+  }
+  
+  .tabfolder__tabs {
+    flex-direction: row;
+    overflow-x: auto;
+    border-right: none;
+    border-bottom: 1px solid var(--tab-border-color);
+    padding: 0.5rem;
+  }
+  
+  .tabfolder__tab {
+    white-space: nowrap;
+    flex-shrink: 0;
+    border-right: none;
+    border-bottom: 2px solid transparent;
+  }
+  
+  .tabfolder__tab--active {
+    border-right: none;
+    border-bottom-color: var(--tab-active-color);
+  }
+  
+  .tabfolder--pills .tabfolder__tab {
+    margin: 0 0.25rem;
+  }
+  
+  .tabfolder--bordered .tabfolder__tabs {
+    border-radius: 8px 8px 0 0;
+    border-right: none;
+    border-bottom: 1px solid var(--tab-border-color);
+  }
+}

@@ -1,0 +1,41 @@
+[	
+	{ "region": "WEST" },
+	{ "region": "WEST", "jurisdiction": "USA", "id": "ES" },
+	{ "region": "WEST", "jurisdiction": "EU", "id": "EU" },
+	{ "region": "WEST", "jurisdiction": "Australia", "id": "AU" },
+	{ "region": "WEST", "jurisdiction": "Canada", "id": "CA" },
+	{ "region": "WEST", "jurisdiction": "UK", "id": "ES" },
+
+	{ "region": "LATAM" },
+	{ "region": "LATAM", "jurisdiction": "El Salvador", "id": "ES" },
+	{ "region": "LATAM", "jurisdiction": "Brazil", "id": "BR" },
+	{ "region": "LATAM", "jurisdiction": "Cuba", "id": "CU" },
+	{ "region": "LATAM", "jurisdiction": "Mexico", "id": "MX" },
+	{ "region": "LATAM", "jurisdiction": "Nicaragua", "id": "NI" },
+	{ "region": "LATAM", "jurisdiction": "Chile", "id": "CL" },
+	{ "region": "LATAM", "jurisdiction": "Colombia", "id": "CO" },
+	{ "region": "LATAM", "jurisdiction": "Costa Rica", "id": "CR" },
+	{ "region": "LATAM", "jurisdiction": "Panama", "id": "PA"  },
+	{ "region": "LATAM", "jurisdiction": "Paraguay", "id": "PY"  },
+	{ "region": "LATAM", "jurisdiction": "Peru", "id": "PE"  },
+	{ "region": "LATAM", "jurisdiction": "Uruguay", "id": "UR" },
+	{ "region": "LATAM", "jurisdiction": "Guatemala", "id": "GT" },
+	{ "region": "LATAM", "jurisdiction": "Honduras", "id": "HN" },
+	{ "region": "LATAM", "jurisdiction": "Bolivia", "id": "BO" },
+	{ "region": "LATAM", "jurisdiction": "Dominicana", "id": "DO" },
+	{ "region": "LATAM", "jurisdiction": "Ecuador", "id": "EC" },
+
+	{ "region": "ASIA" },
+	{ "region": "ASIA", "jurisdiction": "Japan", "id": "ES" },
+	{ "region": "ASIA", "jurisdiction": "Hong Kong", "id": "ES" },
+	{ "region": "ASIA", "jurisdiction": "Taiwan", "id": "ES" },
+
+	{ "region": "CARIBE" },
+	{ "region": "CARIBE", "jurisdiction": "Anguilla", "id": "AN" },
+	{ "region": "CARIBE", "jurisdiction": "Bahamas", "id": "BH" },
+	{ "region": "CARIBE", "jurisdiction": "BVI", "id": "BV" },
+	{ "region": "CARIBE", "jurisdiction": "Belize", "id": "ES" },
+	{ "region": "CARIBE", "jurisdiction": "Cayman", "id": "CY" },
+	{ "region": "CARIBE", "jurisdiction": "SVG", "id": "SV" }
+	
+]

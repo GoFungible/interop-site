@@ -1,0 +1,41 @@
+[	
+	{ "region": "WEST" },
+	{ "region": "WEST", "jurisdiction": "USA", "id": "ES", "payments": "" },
+	{ "region": "WEST", "jurisdiction": "EU", "id": "EU", "payments": "" },
+	{ "region": "WEST", "jurisdiction": "Australia", "id": "AU", "payments": "" },
+	{ "region": "WEST", "jurisdiction": "Canada", "id": "CA", "payments": "" },
+	{ "region": "WEST", "jurisdiction": "UK", "id": "ES", "payments": "" },
+
+	{ "region": "LATAM" },
+	{ "region": "LATAM", "jurisdiction": "El Salvador", "id": "ES", "payments": "" },
+	{ "region": "LATAM", "jurisdiction": "Brazil", "id": "BR", "payments": "" },
+	{ "region": "LATAM", "jurisdiction": "Cuba", "id": "CU", "payments": "" },
+	{ "region": "LATAM", "jurisdiction": "Mexico", "id": "MX", "payments": "" },
+	{ "region": "LATAM", "jurisdiction": "Nicaragua", "id": "NI", "payments": "" },
+	{ "region": "LATAM", "jurisdiction": "Chile", "id": "CL", "payments": "" },
+	{ "region": "LATAM", "jurisdiction": "Colombia", "id": "CO", "payments": "" },
+	{ "region": "LATAM", "jurisdiction": "Costa Rica", "id": "CR", "payments": "" },
+	{ "region": "LATAM", "jurisdiction": "Panama", "id": "PA", "payments": ""  },
+	{ "region": "LATAM", "jurisdiction": "Paraguay", "id": "PY", "payments": ""  },
+	{ "region": "LATAM", "jurisdiction": "Peru", "id": "PE", "payments": ""  },
+	{ "region": "LATAM", "jurisdiction": "Uruguay", "id": "UR", "payments": "" },
+	{ "region": "LATAM", "jurisdiction": "Guatemala", "id": "GT", "payments": "" },
+	{ "region": "LATAM", "jurisdiction": "Honduras", "id": "HN", "payments": "" },
+	{ "region": "LATAM", "jurisdiction": "Bolivia", "id": "BO", "payments": "" },
+	{ "region": "LATAM", "jurisdiction": "Dominicana", "id": "DO", "payments": "" },
+	{ "region": "LATAM", "jurisdiction": "Ecuador", "id": "EC", "payments": "" },
+
+	{ "region": "ASIA" },
+	{ "region": "ASIA", "jurisdiction": "Japan", "id": "ES", "payments": "" },
+	{ "region": "ASIA", "jurisdiction": "Hong Kong", "id": "ES", "payments": "" },
+	{ "region": "ASIA", "jurisdiction": "Taiwan", "id": "ES", "payments": "" },
+
+	{ "region": "CARIBE" },
+	{ "region": "CARIBE", "jurisdiction": "Anguilla", "id": "AN", "payments": "" },
+	{ "region": "CARIBE", "jurisdiction": "Bahamas", "id": "BH", "payments": "" },
+	{ "region": "CARIBE", "jurisdiction": "BVI", "id": "BV", "payments": "" },
+	{ "region": "CARIBE", "jurisdiction": "Belize", "id": "ES", "payments": "" },
+	{ "region": "CARIBE", "jurisdiction": "Cayman", "id": "CY", "payments": "" },
+	{ "region": "CARIBE", "jurisdiction": "SVG", "id": "SV", "payments": "" }
+	
+]

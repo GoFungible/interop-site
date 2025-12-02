@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="309mm"
+   height="236mm"
+   viewBox="0 0 309.00001 236"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   sodipodi:docname="monetary_policies.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:snap-global="false"
+     inkscape:zoom="0.75009375"
+     inkscape:cx="558.59684"
+     inkscape:cy="497.93776"
+     inkscape:window-width="1920"
+     inkscape:window-height="1013"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
+  <defs
+     id="defs2">
+    <marker
+       style="overflow:visible"
+       id="marker1425"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path1423" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2Lstart"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Lstart"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(1.1,0,0,1.1,1.1,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:0.625;stroke-linejoin:round"
+         id="path1157" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Lstart"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lstart"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(0.8,0,0,0.8,10,0)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path1139" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Lend"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path1142" />
+    </marker>
+    <linearGradient
+       id="linearGradient3174"
+       inkscape:swatch="solid">
+      <stop
+         style="stop-color:#f0bccd;stop-opacity:1;"
+         offset="0"
+         id="stop3172" />
+    </linearGradient>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-37.011887,-83.701126)"
+     style="display:inline">
+    <rect
+       style="opacity:0;fill:#f0bccd;fill-opacity:1;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none"
+       id="rect3218"
+       width="0"
+       height="0"
+       x="-158.84901"
+       y="-34.409584" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.242983px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#Arrow2Lstart);marker-end:url(#marker1425)"
+       d="m 62.577281,91.755955 0.22664,216.153675 c 270.353469,-1.54796 270.353469,-1.54796 270.353469,-1.54796"
+       id="path1057" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.07068;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:4.2827, 4.2827;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 63.410772,276.968 C 312.71566,276.41799 312.71566,276.41799 312.71566,276.41799"
+       id="path1680" />
+    <path
+       style="display:inline;fill:none;stroke:#000000;stroke-width:0.265257;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:0.265257, 1.59154;stroke-dashoffset:0;stroke-opacity:1"
+       d="m 63.678691,308.07592 c 33.21496,-0.17799 32.43293,-0.584 32.43293,-0.584"
+       id="path1795-9" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1.18007;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:3.5402, 3.5402;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 63.34238,308.19401 C 283.08553,103.86472 283.08553,103.86472 283.08553,103.86472"
+       id="path1910" />
+    <path
+       style="display:inline;fill:none;stroke:#000000;stroke-width:1.20718;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:2.41436, 7.24309;stroke-dashoffset:0;stroke-opacity:1"
+       d="M 63.408061,307.96169 C 235.83415,103.28741 235.83415,103.28741 235.83415,103.28741"
+       id="path1910-6" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:7.05556px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="44.98103"
+       y="111.53995"
+       id="text5453-5-6"><tspan
+         sodipodi:role="line"
+         id="tspan5451-6-4"
+         style="font-size:7.05556px;stroke-width:0.264583"
+         x="44.98103"
+         y="111.53995">NUM TOKENS</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:7.05556px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="232.22055"
+       y="315.66516"
+       id="text5453-5-6-0"><tspan
+         sodipodi:role="line"
+         id="tspan5451-6-4-0"
+         style="font-size:7.05556px;stroke-width:0.264583"
+         x="232.22055"
+         y="315.66516">NUM COLLATERALIZED UNITS</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:7.05556px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="-26.099781"
+       y="267.08301"
+       id="text5453-8-6"
+       transform="rotate(-43.2)"><tspan
+         sodipodi:role="line"
+         id="tspan5451-0-2"
+         style="font-size:7.05556px;stroke-width:0.264583"
+         x="-26.099781"
+         y="267.08301">3 - REEDEMABLE</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:7.05556px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="-86.089188"
+       y="276.35709"
+       id="text5453-8-6-8"
+       transform="rotate(-43.2)"><tspan
+         sodipodi:role="line"
+         id="tspan5451-0-2-05"
+         style="font-size:7.05556px;stroke-width:0.264583"
+         x="-86.089188"
+         y="276.35709">2 - STABLECOIN</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:7.05556px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:0.265;stroke-miterlimit:4;stroke-dasharray:none"
+       x="41.701389"
+       y="277.05914"
+       id="text5453-8-6-8-2"
+       transform="rotate(-43.2)"><tspan
+         sodipodi:role="line"
+         id="tspan5451-0-2-05-9"
+         style="font-size:7.05556px;fill:#ff0000;fill-opacity:1;stroke-width:0.265;stroke-miterlimit:4;stroke-dasharray:none"
+         x="41.701389"
+         y="277.05914">4 - UNIT OF ACCOUNT1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:7.05556px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="191.80176"
+       y="274.62469"
+       id="text5453-8-6-2"><tspan
+         sodipodi:role="line"
+         id="tspan5451-0-2-0"
+         style="font-size:7.05556px;stroke-width:0.264583"
+         x="191.80176"
+         y="274.62469">1 - GOLD STANDARD</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5219px;line-height:0;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#fd0000;fill-opacity:1;stroke:none;stroke-width:0.263049"
+       x="-84.49176"
+       y="243.70656"
+       id="text5453-8-6-4-6"
+       transform="matrix(0.64149695,-0.76065581,0.80071908,0.60940022,0,0)"><tspan
+         sodipodi:role="line"
+         style="font-size:7.01464px;line-height:1;fill:#3c7500;fill-opacity:1;stroke-width:0.263049"
+         x="-84.49176"
+         y="243.70656"
+         id="tspan7251-9">5 - UNIT OF ACCOUNT2</tspan></text>
+    <ellipse
+       style="opacity:0;fill:#add8e6;stroke-width:0.255;stroke-miterlimit:4;stroke-dasharray:0.51, 1.02;stroke-dashoffset:0"
+       id="path15325"
+       cx="179.43002"
+       cy="109.04668"
+       rx="1.4294175"
+       ry="1.1810035" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.5833px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="183.61255"
+       y="228.62711"
+       id="text12548"><tspan
+         sodipodi:role="line"
+         id="tspan12546"
+         style="stroke-width:0.264583" /></text>
+  </g>
+</svg>

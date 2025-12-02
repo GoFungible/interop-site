@@ -1,0 +1,226 @@
+[	
+
+	{ "subject": "ON ECONOMIC VALUE" },
+	{ "subject": "ON ECONOMIC VALUE", "date": "1996", "title": "A History of Value Theory", "author": "Martin Fogarty", "place": "", "url": "https://www.tcd.ie/Economics/assets/pdf/SER/1996/Martin_Fogarty.html" },
+	{ "subject": "ON ECONOMIC VALUE", "date": "1996", "title": "Human Society and the Global Economy", "author": "Kit Sims Taylor", "place": "", "url": "https://www.d.umn.edu/cla/faculty/jhamlin/4111/2111-home/value.htm" },
+	{ "subject": "ON ECONOMIC VALUE", "date": "1999", "title": "Theories of Value and the Monetary Theory of Production", "author": "Wray, L. Randall", "place": "", "url": "https://www.econstor.eu/handle/10419/186934" },
+	{ "subject": "ON ECONOMIC VALUE", "date": "2006", "title": "Revisiting Cantillon's admirable theory of distribution and value - a misinterpretation corrected", "author": "Roy H Grieve", "place": "", "url": "https://strathprints.strath.ac.uk/68326/1/Grieve_2015_Revisiting_cantillon_s_admirable_theory_of_distribution_and_value.pdf" },
+	{ "subject": "ON ECONOMIC VALUE", "date": "2009", "title": "The theory of economic value", "author": "Michael Huemer", "place": "", "url": "https://andrewmbailey.com/money/readings/huemer.pdf" },
+	{ "subject": "ON ECONOMIC VALUE", "date": "2023", "title": "Value Theory: Critical Analysis and Theory Construction", "author": "Anthony Chor-Beng Liew, Yushan Chen", "place": "Capital Motors Inc., Taipei City", "url": "https://www.scirp.org/journal/paperinformation?paperid=124761" },
+
+	{ "subject": "ON TOKENOMICS" },
+	{ "subject": "ON TOKENOMICS", "date": "2022", "title": "5 Laws of Tokenomics", "author": "Andy Martin", "place": "", "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4018141" },
+	{ "subject": "ON TOKENOMICS", "date": "2022", "title": "Token Economy – Towards Building a Sustainable Blockchain Token Ecosystem Framework", "author": "Dominik Sobe", "place": "Universidade Nova de Lisboa", "url": "https://run.unl.pt/bitstream/10362/145724/1/TGI1224.pdf" },
+	{ "subject": "ON TOKENOMICS", "date": "2023", "title": "Developing tokenomics framework. Conceptual framework for self-sustaining tokenomics. ", "author": "Nurana Gasimova", "place": "", "url": "https://hh.diva-portal.org/smash/get/diva2:1774052/FULLTEXT02.pdf" },
+
+	{ "subject": "ON UTILITY IDENTIFICATION TOKENOMICS" },
+	{ "subject": "ON TOKENOMICS", "date": "2022", "title": "Token Tales: A Theoretical Exploration of the Role of Tokens in Resource Allocation", "author": "Daniel Zautner", "place": "", "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4299316" },
+
+	{ "subject": "ON UTILITY INVESTMENT TOKENOMICS" },
+
+	{ "subject": "ON SECURITY INVESTMENT TOKENOMICS" },
+
+	{ "subject": "ON STABLECOIN CURRENCY TOKENOMICS" },
+	{ "subject": "ON STABLECOIN CURRENCY TOKENOMICS", "date": "2020", "title": "Stablecoins 2.0: Economic Foundations and Risk-based Models", "author": "Ariah Klages-Mundt, Dominik Harz, Lewis Gudgeon, Jun-You Liu, Andreea Minca", "place": "", "url": "https://berkeley-defi.github.io/assets/material/Stablecoins%202.0%20.pdf" },
+	{ "subject": "ON STABLECOIN CURRENCY TOKENOMICS", "date": "2021", "title": "Decentralized Stablecoins and Collateral Risk", "author": "Roman Kozhan, Ganesh Viswanath-Natraj", "place": "", "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3866975" },
+	{ "subject": "ON STABLECOIN CURRENCY TOKENOMICS", "date": "2022", "title": "Making Stablecoins More Stable With Chainlink Proof of Reserve", "author": "Zubin Pratap", "place": "", "url": "https://blog.chain.link/stablecoins-and-proof-of-reserve/" },
+	{ "subject": "ON STABLECOIN CURRENCY TOKENOMICS", "date": "2022", "title": "Can a Stablecoin Be Collateralized by a Fully Decentralized, Physical Asset?", "author": "Maxwell Murialdo and Jonathan L. Belof", "place": "Cryptoeconomic Systems", "url": "https://cryptoeconomicsystems.pubpub.org/pub/murialdo-physical-asset-stablecoin/release/2" },
+	{ "subject": "ON STABLECOIN CURRENCY TOKENOMICS", "date": "2022", "title": "The stable in stablecoins", "author": "Garth Baughman, Francesca Carapella, Jacob Gerszten, and David Mills", "place": "FED", "url": "https://www.federalreserve.gov/econres/notes/feds-notes/the-stable-in-stablecoins-20221216.html" },
+	{ "subject": "ON STABLECOIN CURRENCY TOKENOMICS", "date": "2023", "title": "Stablecoin Management and Collateral: The Challenges and Opportunities", "author": "Asad Khan", "place": "", "url": "https://medium.com/centrifuge/thoughts-on-the-management-and-collateral-of-a-stablecoin-4232372ba40e" },
+	{ "subject": "ON STABLECOIN CURRENCY TOKENOMICS", "date": "2023", "title": "The four types of stablecoins: A comparative analysis", "author": "Matthias Hafner, Marco Henriques Pereira†, ‡Helmut Dietl , Juan Beccuti", "place": "", "url": "https://arxiv.org/pdf/2308.07041.pdf" },
+	{ "subject": "ON STABLECOIN CURRENCY TOKENOMICS", "date": "2023", "title": "An Introduction to Stablecoins", "author": "Erik Anderson", "place": "", "url": "https://www.globalxetfs.com/an-introduction-to-stablecoins/" },
+
+	{ "subject": "ON STABLECOIN WHITEPAPERS" },
+	{ "subject": "ON STABLECOIN WHITEPAPERS", "date": "2014", "title": "DAI Whitepaper", "author": "MakerDAO", "place": "", "url": "https://makerdao.com/en/whitepaper#dai-as-an-ecosystem-driver-and-defi-builder" },
+	{ "subject": "ON STABLECOIN WHITEPAPERS", "date": "2014", "title": "Tether Whitepaper", "author": "Tether", "place": "", "url": "https://tether.to/en/whitepaper" },
+	{ "subject": "ON STABLECOIN WHITEPAPERS", "date": "2019", "title": "PAX Gold Whitepaper", "author": " Charles Cascarilla", "place": "", "url": "https://paxos.com/wp-content/uploads/2019/09/PAX-Gold-Whitepaper.pdf" },
+	{ "subject": "ON STABLECOIN WHITEPAPERS", "date": "2020", "title": "Goldario Whitepaper", "author": "Goldario", "place": "", "url": "https://www.goldario.com/#white-paper" },
+	{ "subject": "ON STABLECOIN WHITEPAPERS", "date": "2022", "title": "Tether Gold Whitetaper", "author": "Tether", "place": "", "url": "https://gold.tether.to/Tether%20Gold%20Whitepaper.pdf" },
+	{ "subject": "ON STABLECOIN WHITEPAPERS", "date": "2023", "title": "PDX Whitetaper", "author": "PDX", "place": "", "url": "https://pdxcoin.io/files/PDX_White_Paper.pdf" },
+
+	{ "subject": "ON NFT IDENTIFICATION TOKENOMICS" },
+
+	{ "subject": "ON NFT INVESTMENT TOKENOMICS" }
+
+]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

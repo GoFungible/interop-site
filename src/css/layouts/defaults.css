@@ -1,0 +1,15 @@
+:root {
+  --doc-sidebar-width: 300px;
+  --ifm-container-width: 100%;
+  --ifm-container-width-xl: 100%;
+	--ifm-code-font-size: 100%;
+}
+
+@media screen and (min-width: 840px) {
+	:root {
+		--doc-sidebar-width: 300px;
+		--ifm-container-width: 90%;
+		--ifm-container-width-xl: 90%;
+		--ifm-code-font-size: 95%;
+ }
+}
