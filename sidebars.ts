@@ -21,15 +21,36 @@ const sidebars: SidebarsConfig = {
 		{
 			type: 'doc',
 			id: 'general/intro', // document ID
-			label: 'General', // sidebar label
+			label: 'Considerations', // sidebar label
+		}, {
+			type: 'doc',
+			id: 'general/intro', // document ID
+			label: 'Topologies', // sidebar label
+		}, {
+			type: 'doc',
+			id: 'general/intro', // document ID
+			label: 'Stakeholders', // sidebar label
 		}, {
 			type: 'html',
       value: '<div class="border border-1 m-3" />',
     }, {
-			type: 'doc',
-			id: 'patterns/intro', // document ID
+      type: 'category',
 			label: 'Patterns', // sidebar label
-		}
+			link: {
+        type: "doc",
+				id: 'patterns/intro', // document ID
+			},
+			collapsible: false,
+			items: [
+				{
+					type: 'category',
+					label: 'Transfer Liquidity',
+					items: [
+						'patterns/intro',
+					],
+				}, 
+			]
+		},
   ],
 
 };
