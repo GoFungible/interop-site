@@ -18,7 +18,7 @@ export default function InteropWorkaroundSection(): JSX.Element {
 
 			<SplitSection
 				image={{
-					src: 'https://stealthex.io/blog/wp-content/uploads/2022/06/%D0%A1ross_chain_bridge-5-min.png',
+					src: 'img/drawings/relayer.svg',
 					alt: 'Another great feature',
 					width: 600,
 					height: 400
