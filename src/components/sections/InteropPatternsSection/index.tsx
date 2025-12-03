@@ -18,7 +18,7 @@ export default function InteropPatternsSection(): JSX.Element {
 
 			<SplitSection
 				image={{
-					src: 'https://www.strandbaptist.org.za/uploads/4/2/1/5/4215011/download_2_orig.jpg',
+					src: 'https://thumbs.dreamstime.com/b/woman-man-people-jigsaw-puzzle-pieces-vector-couple-business-problem-partnership-human-hand-connect-bridge-partner-261956584.jpg',
 					alt: 'Another great feature',
 					width: 600,
 					height: 400
