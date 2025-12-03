@@ -79,62 +79,19 @@ const config: Config = {
     },
 
 		navbar: {
-      title: 'Interop',
+      title: 'Fungible Interop Patterns',
       hideOnScroll: true,
       logo: {
-        alt: 'Fungible Standard',
+        alt: 'Fungible Interop Patterns',
         src: 'img/logo32x32.png',
       },
       items: [
         {
           type: 'docSidebar',
-          sidebarId: 'stackSidebar',
+          sidebarId: 'patternsSidebar',
           position: 'left',
-          label: 'Maturity Stack',
+          label: 'Patterns',
         },
-/*        {
-          type: 'docSidebar',
-          sidebarId: 'ecosystemSidebar',
-          position: 'left',
-          label: 'Ecosystems',
-        },
-        {
-          type: 'docSidebar',
-          sidebarId: 'ecosystemSidebar',
-          position: 'left',
-          label: 'Standardization',
-        },
-        {
-          type: 'docSidebar',
-          sidebarId: 'ecosystemSidebar',
-          position: 'left',
-          label: 'Immutability',
-        },
-        {
-          type: 'docSidebar',
-          sidebarId: 'ecosystemSidebar',
-          position: 'left',
-          label: 'Interoperability',
-        },
-        {
-          type: 'docSidebar',
-          sidebarId: 'ecosystemSidebar',
-          position: 'left',
-          label: 'Principles',
-        },
-				{
-          type: 'docSidebar',
-          sidebarId: 'valueSidebar',
-          position: 'left',
-          label: 'Captured Value',
-        },
-				{
-          type: 'docSidebar',
-          sidebarId: 'valueChainSidebar',
-          position: 'left',
-          label: 'Value Chain',
-        },
-*/
 				{to: '/blog', label: 'Blog', position: 'right'},
         {
           href: 'https://github.com/GoFungible',
@@ -146,90 +103,11 @@ const config: Config = {
 		footer: {
 			style: 'dark',
 			links: [{
-				title: 'Maturity Stack',
+				title: 'Patterns',
 						items: [{
-							label: 'Abstraction Layer',
-							href: '/docs/valueChain/principles/intro',
-						},{
-							label: 'Interoperability',
-							href: '/docs/valueChain/tokenization/intro',
-						}, {
-							label: 'Compose',
-							href: '/docs/valueChain/funding/intro',
-						}, {
-							label: 'Baseline',
-							href: '/docs/valueChain/negotiation/intro',
+							label: 'Patterns',
+							href: '/docs/general/intro',
 						},
-					],
-				}, {
-					title: 'Captured Value',
-						items: [{
-							label: 'Memecoins',
-							href: '/docs/valueChain/principles/intro',
-						},{
-							label: 'Reputokens',
-							href: '/docs/valueChain/tokenization/intro',
-						}, {
-							label: 'Utility Tokens',
-							href: '/docs/valueChain/funding/intro',
-						}, {
-							label: 'Security Tokens',
-							href: '/docs/valueChain/negotiation/intro',
-						}, {
-							label: 'Stablecoins',
-							href: '/docs/valueChain/negotiation/intro',
-						}, {
-							label: 'Crommodity',
-							href: '/docs/valueChain/negotiation/intro',
-						},
-					],
-				}, {
-					title: 'Value Chain',
-						items: [{
-							label: 'Principles',
-							href: '/docs/valueChain/principles/intro',
-						},{
-							label: 'Tokenization',
-							href: '/docs/valueChain/tokenization/intro',
-						}, {
-							label: 'Project Funding',
-							href: '/docs/valueChain/funding/intro',
-						}, {
-							label: 'Token Negotiation',
-							href: '/docs/valueChain/negotiation/intro',
-						}, {
-							label: 'Token Operations',
-							href: '/docs/valueChain/distribution/intro',
-						}, {
-							label: 'DeFi Services',
-							href: '/docs/valueChain/defi/intro',
-						}, {
-							label: 'Crowdsolving',
-							href: '/docs/valueChain/crowdsolving/intro',
-						}
-					],
-				}, {
-					title: 'Ecosystems',
-					items: [{
-							label: 'Liquidity Provision',
-							href: '/docs/valueChain/defi/liquidity',
-						}, {
-							label: 'Launchap',
-							href: '/docs/valueChain/defi/launchpad',
-						}, {
-							label: 'Transfers',
-							href: '/docs/valueChain/defi/transfers',
-						}, {
-							label: 'Payments',
-							href: '/docs/valueChain/defi/payments',
-						}, {
-							label: 'Cards',
-							href: '/docs/valueChain/defi/cards',
-						}, {
-							label: 'Lending',
-							href: '/docs/valueChain/defi/lending',
-
-						}
 					],
 				}, 
 			],
