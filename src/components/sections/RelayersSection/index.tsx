@@ -1,42 +1,69 @@
-import { JSX } from "react";
-import SplitSection from "../../basic/splitrow/SplitSection";
+// In your .mdx file
+import { JSX } from 'react';
 
 import styles from './styles.module.css';
-import GenericSection from "../../basic/GenericSection";
+import CardsRow from '../../basic/cardrow/CardsRow';
+import { BaseCardProps } from '../../basic/cardrow/Card';
+import GenericSection from '../../basic/GenericSection';
+
+// Example with typed cards array
+const featureCards: BaseCardProps[] = [
+  {
+    variant: "primary",
+		image: "https://cdn-icons-png.flaticon.com/512/2092/2092663.png",
+		imageHeight: "120px",
+    title: "Trust Models",
+    description: "Every relayer features different Trust Model, so is up to the issuer to choose the relayers more suitable for his token.",
+    buttonText: "More",
+    href: "/",
+  },
+  {
+    variant: "primary",
+		image: "img/decentralization.webp",
+		imageHeight: "120px",
+    title: "Coverage",
+    description: "Different relayers work for different networks so selecting the right relayer is a decision criteria for the issuer.",
+    buttonText: "More",
+    href: "/",
+  },
+  {
+    variant: "primary",
+		image: "https://cdn-icons-png.flaticon.com/512/1317/1317755.png",
+		imageHeight: "120px",
+    title: "Costs",
+    description: "Gas fees charged for every relayer must be considered when making a decision.",
+    buttonText: "More",
+    href: "/",
+  },
+	/*{
+    variant: "primary",
+		image: "https://cdn-icons-png.flaticon.com/512/8226/8226075.png",
+		imageHeight: "120px",
+    title: "Compliance",
+    description: "With juristictions increasingly stressing legilation around cryptocurrencies, any crypto must allow optional and configurable compliance mechanisms without reinvnting the wheel.",
+    buttonText: "More",
+    href: "/",
+  },*/
+];
 
 export default function RelayersSection(): JSX.Element {
   return (
     
-			<GenericSection
-				title="Relayers"
-				subtitle="Give me a lever long enough and a fulcrum on which to place it, and I shall move the world. Archimedes."
-				variant="secondary"
-				padding="large"
-				headerSpacing="large"
-				headerClassName={styles.heroHeaderContent}
-			>
+		<GenericSection
+			title="Relayers"
+			subtitle="Relayer is an intermediary service that facilitates communication and transaction processing between different blockchains or layers. Different relayers deliver different features."
+			variant="secondary"
+			padding="large"
+			headerSpacing="large"
+			headerClassName={styles.heroHeaderContent}
+		>
 
-			<SplitSection
-				image={{
-					src: 'https://www.strandbaptist.org.za/uploads/4/2/1/5/4215011/download_2_orig.jpg',
-					alt: 'Another great feature',
-					width: 600,
-					height: 400
-				}}
-				content={{
-					title: 'Relayers + Patterns',
-					titleLevel: 2,
-					text: (
-						<div>
-							<p>With several hundreds of blockchain <a href="https://chainlist.org/">networks</a>, more than 1700 <a href="https://blockspot.io/exchange/">exchanges</a>, 200 <a href="https://blockspot.io/wallet/">wallets</a> and more thn 1300 <a href="https://eips.ethereum.org/all">ERC standards</a> and the lack of role models and references the industry looks lost into the confusion which is the perfect climate for dishonest behaviour.</p>
-						</div>
-					)
-				}}
-				reverse={false}
-				spacing="large"
+			<CardsRow
+				columns={3}
+				cards={featureCards}
 			/>
 
-			</GenericSection>
+		</GenericSection>
 
   );
 }

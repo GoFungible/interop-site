@@ -4,10 +4,9 @@ import Layout from '@theme/Layout';
 
 import BackgroundImageHeader from '../components/headers/BackgroundImageHeader';
 import InteropProblemSection from '../components/sections/InteropProblemSection';
-import RelayersSection from '../components/sections/RelayersSection';
-import TrustModelsSection from '../components/sections/TrustModelsSection';
 import InteropPatternsSection from '../components/sections/InteropPatternsSection';
 import InteropWorkaroundSection from '../components/sections/InteropWorkaroundSection';
+import RelayersSection from '../components/sections/RelayersSection';
 
 export default function Home(): ReactNode {
   const {siteConfig} = useDocusaurusContext();
@@ -28,7 +27,6 @@ export default function Home(): ReactNode {
 				<InteropProblemSection />
 				<InteropWorkaroundSection />
 				<RelayersSection />
-				<TrustModelsSection />
 				<InteropPatternsSection />
       </main>
 
