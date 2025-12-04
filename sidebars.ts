@@ -20,37 +20,54 @@ const sidebars: SidebarsConfig = {
   patternsSidebar: [
 		{
 			type: 'doc',
-			id: 'general/intro',
+			id: 'intro',
 			label: 'Considerations',
-		}, {
-			type: 'doc',
-			id: 'general/topologies',
-			label: 'Topologies',
-		}, {
-			type: 'doc',
-			id: 'general/stakeholders',
-			label: 'Stakeholders',
 		}, {
 			type: 'html',
       value: '<div class="border border-1 m-3" />',
     }, {
       type: 'category',
-			label: 'Patterns',
+			label: 'Interchain Communication',
+			link: {
+        type: "doc",
+				id: 'general/intro',
+			},
+			collapsible: true,
+			items: [
+				'general/topologies',
+				'general/stakeholders',
+				'general/messages',
+			]
+		}, {
+      type: 'category',
+			label: 'Relayers',
+			link: {
+        type: "doc",
+				id: 'relayers/intro',
+			},
+			collapsible: true,
+			items: [
+				'relayers/trusted',
+				'relayers/trustminimized',
+				'relayers/trustless',
+			]
+		}, {
+      type: 'category',
+			label: 'Interoperability Patterns',
 			link: {
         type: "doc",
 				id: 'patterns/intro',
 			},
-			collapsible: false,
+			collapsible: true,
 			items: [
-				{
-					type: 'category',
-					label: 'Transfer Liquidity',
-					items: [
-						'patterns/intro',
-					],
-				}, 
+				'patterns/bridge',
+				'patterns/expanding',
+				'patterns/rebalancing',
+				'patterns/withdrawing',
+				'patterns/captureutility',
+				'patterns/capturevalue',
 			]
-		},
+		}, 
   ],
 
 };
