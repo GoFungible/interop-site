@@ -20,25 +20,25 @@ const sidebars: SidebarsConfig = {
   patternsSidebar: [
 		{
 			type: 'doc',
-			id: 'general/intro', // document ID
-			label: 'Considerations', // sidebar label
+			id: 'general/intro',
+			label: 'Considerations',
 		}, {
 			type: 'doc',
-			id: 'general/intro', // document ID
-			label: 'Topologies', // sidebar label
+			id: 'general/topologies',
+			label: 'Topologies',
 		}, {
 			type: 'doc',
-			id: 'general/intro', // document ID
-			label: 'Stakeholders', // sidebar label
+			id: 'general/stakeholders',
+			label: 'Stakeholders',
 		}, {
 			type: 'html',
       value: '<div class="border border-1 m-3" />',
     }, {
       type: 'category',
-			label: 'Patterns', // sidebar label
+			label: 'Patterns',
 			link: {
         type: "doc",
-				id: 'patterns/intro', // document ID
+				id: 'patterns/intro',
 			},
 			collapsible: false,
 			items: [
