@@ -18,7 +18,7 @@ export default function InteropWorkaroundSection(): JSX.Element {
 
 			<SplitSection
 				image={{
-					src: 'img/drawings/relayer.svg',
+					src: 'img/drawings/interop_relayer.svg',
 					alt: 'Another great feature',
 					width: 600,
 					height: 400

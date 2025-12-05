@@ -27,6 +27,7 @@ const sidebars: SidebarsConfig = {
       value: '<div class="border border-1 m-3" />',
     }, 
 		'intercom/messages',
+		'intercom/mailbox',
 		{
 			type: 'category',
 			label: 'Relayers',
@@ -41,6 +42,7 @@ const sidebars: SidebarsConfig = {
 				'intercom/relayers/trustless',
 			]
 		}, 
+		'intercom/validators',
   ],
   patternsSidebar: [
 		{
@@ -51,7 +53,7 @@ const sidebars: SidebarsConfig = {
 			type: 'html',
       value: '<div class="border border-1 m-3" />',
     }, 	
-		'patterns/stakeholders',
+		'patterns/agents',
 		'patterns/topologies',
 		{
 			type: 'category',
