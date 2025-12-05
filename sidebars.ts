@@ -103,6 +103,20 @@ const sidebars: SidebarsConfig = {
 						'patterns/issuer/capture/capturevalue',
 					]
 				}, 
+				{
+					type: 'category',
+					label: 'DeFi Services',
+					link: {
+						type: "doc",
+						id: 'patterns/issuer/defi/intro',
+					},
+					collapsible: true,
+					items: [
+						'patterns/issuer/defi/exchanges',
+						'patterns/issuer/defi/staking',
+						'patterns/issuer/defi/lending',
+					]
+				}, 
 			]
 		}, 
 		{
@@ -124,6 +138,8 @@ const sidebars: SidebarsConfig = {
 					collapsible: true,
 					items: [
 						'patterns/holder/presence/moving',
+						'patterns/holder/presence/swap',
+						'patterns/holder/presence/transfer',
 					]
 				}, 
 			]
