@@ -53,7 +53,7 @@ const sidebars: SidebarsConfig = {
 			type: 'html',
       value: '<div class="border border-1 m-3" />',
     }, 	
-		'patterns/agents',
+		'patterns/ecosystem',
 		{
 			type: 'category',
 			label: 'Patterns',
@@ -64,6 +64,7 @@ const sidebars: SidebarsConfig = {
 			collapsible: true,
 			items: [
 				'patterns/patterns/bridge',
+				'patterns/patterns/masterslave',
 				'patterns/patterns/intend',
 			]
 		}, 
@@ -148,8 +149,8 @@ const sidebars: SidebarsConfig = {
 					},
 					collapsible: true,
 					items: [
-						'patterns/holder/operation/swap',
 						'patterns/holder/operation/transfer',
+						'patterns/holder/operation/swap',
 					]
 				}, {
 					type: 'category',
