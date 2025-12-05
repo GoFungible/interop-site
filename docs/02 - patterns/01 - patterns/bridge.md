@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Bridge
+# Bridge Pattern
 ---
 
 1	User deposits 100 USDT into BridgeEth.sol (0x123)	(Ethereum Mainnet) <br/>

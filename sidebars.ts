@@ -54,7 +54,19 @@ const sidebars: SidebarsConfig = {
       value: '<div class="border border-1 m-3" />',
     }, 	
 		'patterns/agents',
-		'patterns/topologies',
+		{
+			type: 'category',
+			label: 'Patterns',
+			link: {
+				type: "doc",
+				id: 'patterns/patterns/intro',
+			},
+			collapsible: true,
+			items: [
+				'patterns/patterns/bridge',
+				'patterns/patterns/intend',
+			]
+		}, 
 		{
 			type: 'category',
 			label: 'Issuer Use Cases',
@@ -111,7 +123,7 @@ const sidebars: SidebarsConfig = {
 					},
 					collapsible: true,
 					items: [
-						'patterns/holder/presence/bridge',
+						'patterns/holder/presence/moving',
 					]
 				}, 
 			]
