@@ -10,6 +10,15 @@ import GenericSection from '../../basic/GenericSection';
 const featureCards: BaseCardProps[] = [
   {
     variant: "primary",
+		image: "img/decentralization.webp",
+		imageHeight: "120px",
+    title: "Coverage",
+    description: "Different relayers work for different networks so selecting the right relayer is a decision criteria for the issuer.",
+    buttonText: "More",
+    href: "/",
+  },
+	{
+    variant: "primary",
 		image: "https://cdn-icons-png.flaticon.com/512/2092/2092663.png",
 		imageHeight: "120px",
     title: "Trust Models",
@@ -21,12 +30,12 @@ const featureCards: BaseCardProps[] = [
     variant: "primary",
 		image: "img/decentralization.webp",
 		imageHeight: "120px",
-    title: "Coverage",
-    description: "Different relayers work for different networks so selecting the right relayer is a decision criteria for the issuer.",
+    title: "Liveness",
+    description: "Relayers are pffchina services and therefore run on Web2 servers. It is necessary to guarantee a service level.",
     buttonText: "More",
     href: "/",
   },
-  {
+	{
     variant: "primary",
 		image: "https://cdn-icons-png.flaticon.com/512/1317/1317755.png",
 		imageHeight: "120px",

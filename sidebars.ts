@@ -27,7 +27,6 @@ const sidebars: SidebarsConfig = {
       value: '<div class="border border-1 m-3" />',
     }, 
 		'intercom/messages',
-		'intercom/mailbox',
 		{
 			type: 'category',
 			label: 'Relayers',
@@ -43,6 +42,7 @@ const sidebars: SidebarsConfig = {
 			]
 		}, 
 		'intercom/validators',
+		'intercom/mailbox',
   ],
   patternsSidebar: [
 		{
@@ -57,30 +57,63 @@ const sidebars: SidebarsConfig = {
 		'patterns/topologies',
 		{
 			type: 'category',
-			label: 'Issuers',
+			label: 'Issuer Use Cases',
 			link: {
 				type: "doc",
 				id: 'patterns/issuer/intro',
 			},
 			collapsible: true,
 			items: [
-				'patterns/issuer/expanding',
-				'patterns/issuer/rebalancing',
-				'patterns/issuer/withdrawing',
-				'patterns/issuer/captureutility',
-				'patterns/issuer/capturevalue',
+				{
+					type: 'category',
+					label: 'Network Presence',
+					link: {
+						type: "doc",
+						id: 'patterns/issuer/presence/intro',
+					},
+					collapsible: true,
+					items: [
+						'patterns/issuer/presence/expanding',
+						'patterns/issuer/presence/rebalancing',
+						'patterns/issuer/presence/withdrawing',
+					]
+				}, 
+				{
+					type: 'category',
+					label: 'Value Capture',
+					link: {
+						type: "doc",
+						id: 'patterns/issuer/capture/intro',
+					},
+					collapsible: true,
+					items: [
+						'patterns/issuer/capture/captureutility',
+						'patterns/issuer/capture/capturevalue',
+					]
+				}, 
 			]
 		}, 
 		{
 			type: 'category',
-			label: 'Holders',
+			label: 'Holder Use Cases',
 			link: {
 				type: "doc",
 				id: 'patterns/holder/intro',
 			},
 			collapsible: true,
 			items: [
-				'patterns/holder/bridge',
+				{
+					type: 'category',
+					label: 'Network Presence',
+					link: {
+						type: "doc",
+						id: 'patterns/holder/presence/intro',
+					},
+					collapsible: true,
+					items: [
+						'patterns/holder/presence/bridge',
+					]
+				}, 
 			]
 		}, 
   ],
