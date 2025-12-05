@@ -21,7 +21,7 @@ const sidebars: SidebarsConfig = {
 		{
 			type: 'doc',
 			id: 'intro',
-			label: 'Considerations',
+			label: 'Intro',
 		}, {
 			type: 'html',
       value: '<div class="border border-1 m-3" />',
@@ -30,26 +30,26 @@ const sidebars: SidebarsConfig = {
 			label: 'Interchain Communication',
 			link: {
         type: "doc",
-				id: 'general/intro',
+				id: 'communication/intro',
 			},
 			collapsible: true,
 			items: [
-				'general/topologies',
-				'general/stakeholders',
-				'general/messages',
-			]
-		}, {
-      type: 'category',
-			label: 'Relayers',
-			link: {
-        type: "doc",
-				id: 'relayers/intro',
-			},
-			collapsible: true,
-			items: [
-				'relayers/trusted',
-				'relayers/trustminimized',
-				'relayers/trustless',
+				'communication/messages',
+				'communication/topologies',
+				{
+					type: 'category',
+					label: 'Relayers',
+					link: {
+						type: "doc",
+						id: 'communication/relayers/intro',
+					},
+					collapsible: true,
+					items: [
+						'communication/relayers/trusted',
+						'communication/relayers/trustminimized',
+						'communication/relayers/trustless',
+					]
+				}, 
 			]
 		}, {
       type: 'category',
@@ -60,12 +60,35 @@ const sidebars: SidebarsConfig = {
 			},
 			collapsible: true,
 			items: [
-				'patterns/bridge',
-				'patterns/expanding',
-				'patterns/rebalancing',
-				'patterns/withdrawing',
-				'patterns/captureutility',
-				'patterns/capturevalue',
+				'patterns/stakeholders',
+				{
+					type: 'category',
+					label: 'Issuers',
+					link: {
+						type: "doc",
+						id: 'patterns/issuer/intro',
+					},
+					collapsible: true,
+					items: [
+						'patterns/issuer/bridge',
+					]
+				},
+				{
+					type: 'category',
+					label: 'Holders',
+					link: {
+						type: "doc",
+						id: 'patterns/holder/intro',
+					},
+					collapsible: true,
+					items: [
+						'patterns/holder/expanding',
+						'patterns/holder/rebalancing',
+						'patterns/holder/withdrawing',
+						'patterns/holder/captureutility',
+						'patterns/holder/capturevalue',
+					]
+				}, 
 			]
 		}, 
   ],

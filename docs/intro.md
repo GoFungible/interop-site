@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Considerations
+# Intro
 
 ## ERC-20 Token
 
