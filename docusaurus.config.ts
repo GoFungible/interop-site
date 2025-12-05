@@ -79,18 +79,24 @@ const config: Config = {
     },
 
 		navbar: {
-      title: 'Fungible Interop Patterns',
+      title: 'Fungible Interoperability',
       hideOnScroll: true,
       logo: {
-        alt: 'Fungible Interop Patterns',
+        alt: 'Fungible Interoperability',
         src: 'img/logo32x32.png',
       },
       items: [
         {
           type: 'docSidebar',
+          sidebarId: 'intercomSidebar',
+          position: 'left',
+          label: 'Interchain Communication',
+        },
+				{
+          type: 'docSidebar',
           sidebarId: 'patternsSidebar',
           position: 'left',
-          label: 'Patterns',
+          label: 'Interoperability Patterns',
         },
 				{to: '/blog', label: 'Blog', position: 'right'},
         {

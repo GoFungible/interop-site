@@ -17,7 +17,7 @@ export default function Home(): ReactNode {
 
 			<BackgroundImageHeader
         backgroundImage="https://scx2.b-cdn.net/gfx/news/hires/2013/subarcticlak.jpg"
-        title="Fungible Interoperability Patterns"
+        title="Fungible Interoperability"
         subtitle="Simplicity is the ultimate sophistication"
         textSide="right"
         overlayOpacity={0.4}
