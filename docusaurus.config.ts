@@ -106,7 +106,7 @@ const config: Config = {
 				title: 'Patterns',
 						items: [{
 							label: 'Patterns',
-							href: '/docs/general/intro',
+							href: '/docs/intro',
 						},
 					],
 				}, 
