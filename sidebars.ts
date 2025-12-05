@@ -138,8 +138,29 @@ const sidebars: SidebarsConfig = {
 					collapsible: true,
 					items: [
 						'patterns/holder/presence/moving',
-						'patterns/holder/presence/swap',
-						'patterns/holder/presence/transfer',
+					]
+				}, {
+					type: 'category',
+					label: 'Operation',
+					link: {
+						type: "doc",
+						id: 'patterns/holder/operation/intro',
+					},
+					collapsible: true,
+					items: [
+						'patterns/holder/operation/swap',
+						'patterns/holder/operation/transfer',
+					]
+				}, {
+					type: 'category',
+					label: 'Retail',
+					link: {
+						type: "doc",
+						id: 'patterns/holder/retail/intro',
+					},
+					collapsible: true,
+					items: [
+						'patterns/holder/retail/payments',
 					]
 				}, 
 			]
