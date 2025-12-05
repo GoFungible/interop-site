@@ -25,31 +25,20 @@ const sidebars: SidebarsConfig = {
 		}, {
 			type: 'html',
       value: '<div class="border border-1 m-3" />',
-    }, {
-      type: 'category',
-			label: 'Interchain Communication',
+    }, 
+		'intercom/messages',
+		{
+			type: 'category',
+			label: 'Relayers',
 			link: {
-        type: "doc",
-				id: 'intercom/intro',
+				type: "doc",
+				id: 'intercom/relayers/intro',
 			},
 			collapsible: true,
 			items: [
-				'intercom/messages',
-				'intercom/topologies',
-				{
-					type: 'category',
-					label: 'Relayers',
-					link: {
-						type: "doc",
-						id: 'intercom/relayers/intro',
-					},
-					collapsible: true,
-					items: [
-						'intercom/relayers/trusted',
-						'intercom/relayers/trustminimized',
-						'intercom/relayers/trustless',
-					]
-				}, 
+				'intercom/relayers/trusted',
+				'intercom/relayers/trustminimized',
+				'intercom/relayers/trustless',
 			]
 		}, 
   ],
@@ -61,44 +50,35 @@ const sidebars: SidebarsConfig = {
 		}, {
 			type: 'html',
       value: '<div class="border border-1 m-3" />',
-    }, {
-      type: 'category',
-			label: 'Interoperability Patterns',
+    }, 	
+		'patterns/stakeholders',
+		'patterns/topologies',
+		{
+			type: 'category',
+			label: 'Issuers',
 			link: {
-        type: "doc",
-				id: 'patterns/intro',
+				type: "doc",
+				id: 'patterns/issuer/intro',
 			},
 			collapsible: true,
 			items: [
-				'patterns/stakeholders',
-				{
-					type: 'category',
-					label: 'Issuers',
-					link: {
-						type: "doc",
-						id: 'patterns/issuer/intro',
-					},
-					collapsible: true,
-					items: [
-						'patterns/issuer/bridge',
-					]
-				},
-				{
-					type: 'category',
-					label: 'Holders',
-					link: {
-						type: "doc",
-						id: 'patterns/holder/intro',
-					},
-					collapsible: true,
-					items: [
-						'patterns/holder/expanding',
-						'patterns/holder/rebalancing',
-						'patterns/holder/withdrawing',
-						'patterns/holder/captureutility',
-						'patterns/holder/capturevalue',
-					]
-				}, 
+				'patterns/issuer/expanding',
+				'patterns/issuer/rebalancing',
+				'patterns/issuer/withdrawing',
+				'patterns/issuer/captureutility',
+				'patterns/issuer/capturevalue',
+			]
+		}, 
+		{
+			type: 'category',
+			label: 'Holders',
+			link: {
+				type: "doc",
+				id: 'patterns/holder/intro',
+			},
+			collapsible: true,
+			items: [
+				'patterns/holder/bridge',
 			]
 		}, 
   ],
