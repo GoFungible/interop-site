@@ -65,7 +65,8 @@ const sidebars: SidebarsConfig = {
 			collapsible: true,
 			items: [
 				'patterns/patterns/bridge',
-				'patterns/patterns/masterslave',
+				'patterns/patterns/masterslavefixed',
+				'patterns/patterns/masterslavevariable',
 			]
 		}, 
 		{
