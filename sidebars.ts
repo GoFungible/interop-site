@@ -48,11 +48,12 @@ const sidebars: SidebarsConfig = {
 		{
 			type: 'doc',
 			id: 'patterns/intro',
-			label: 'Intro',
+			label: 'Scope of the Problem',
 		}, {
 			type: 'html',
       value: '<div class="border border-1 m-3" />',
     }, 	
+		'patterns/erc-20',
 		'patterns/ecosystem',
 		{
 			type: 'category',
@@ -65,7 +66,6 @@ const sidebars: SidebarsConfig = {
 			items: [
 				'patterns/patterns/bridge',
 				'patterns/patterns/masterslave',
-				'patterns/patterns/intend',
 			]
 		}, 
 		{
@@ -79,21 +79,7 @@ const sidebars: SidebarsConfig = {
 			items: [
 				{
 					type: 'category',
-					label: 'Network Presence',
-					link: {
-						type: "doc",
-						id: 'patterns/issuer/presence/intro',
-					},
-					collapsible: true,
-					items: [
-						'patterns/issuer/presence/onboarding',
-						'patterns/issuer/presence/rebalancing',
-						'patterns/issuer/presence/withdrawing',
-					]
-				}, 
-				{
-					type: 'category',
-					label: 'Value Capture',
+					label: 'Token Design',
 					link: {
 						type: "doc",
 						id: 'patterns/issuer/capture/intro',
@@ -102,6 +88,21 @@ const sidebars: SidebarsConfig = {
 					items: [
 						'patterns/issuer/capture/captureutility',
 						'patterns/issuer/capture/capturevalue',
+					]
+				}, 
+				{
+					type: 'category',
+					label: 'Network Presence',
+					link: {
+						type: "doc",
+						id: 'patterns/issuer/presence/intro',
+					},
+					collapsible: true,
+					items: [
+						'patterns/issuer/presence/creation',
+						'patterns/issuer/presence/onboarding',
+						'patterns/issuer/presence/rebalancing',
+						'patterns/issuer/presence/withdrawing',
 					]
 				}, 
 				{
@@ -164,6 +165,17 @@ const sidebars: SidebarsConfig = {
 						'patterns/holder/retail/payments',
 					]
 				}, 
+			]
+		}, {
+			type: 'category',
+			label: 'Intends Use Cases',
+			link: {
+				type: "doc",
+				id: 'patterns/intends/intro',
+			},
+			collapsible: true,
+			items: [
+				'patterns/intends/solvers',
 			]
 		}, 
   ],

@@ -2,6 +2,5 @@
 sidebar_position: 1
 ---
 
-# Network Withdrawing
+# Token Creation
 ---
-
