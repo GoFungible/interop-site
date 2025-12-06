@@ -7,13 +7,15 @@ import CodeShowcase from '@site/src/components/basic/CodeShowcase';
 # Principles
 ---
 
+A token is a vehicle to capture and transfer some kind of value. As a consequence, it must adhere to some fundamental principles:
+
 ## REQUIRED (applies to all Fungible Tokens)
 
-* **Token Value**: Capture the value as expected<br/>
+* **MUST Capture value as expected**: (Token Value)<br/>
 ** token should be able to capture the underlying value: speculative, reputational, external price, intrinsic value<br/>
 ** token should be able to protect against whales manipulation<br/>
 
-* **Token Integrity**: Protect the value restricted to marked forces<br/>
+* **MUST Protect value restricted to marked forces** (Token Integrity): <br/>
 ** **Protect investor from Issuer Misuse**<br/>
 **** prevent issuer minting unexpected tokens <br/>
 **** prevent issuer creating tokens in networks out of expected scope<br/>
@@ -24,7 +26,7 @@ import CodeShowcase from '@site/src/components/basic/CodeShowcase';
 **** prevent attacks and vulnerabilities<br/>
 **** protect provder disaster recovery mechanisms<br />
 
-* **Token Usability**: Make the value available<br/>
+* **MUST Make value available** (Token Usability)<br/>
 ** **Token Distribution**: Provide the desired network presence to issuer<br/>
 **** token should be able to be created in any EVM enhanced network<br/>
 **** allow issuers moving to the desired network<br/>
@@ -33,11 +35,11 @@ import CodeShowcase from '@site/src/components/basic/CodeShowcase';
 
 ## OPTIONAL (decided by issuer):
 
-* **Token Transparency**: Provide to holders all details about the token<br/>
+* **CAN Token Transparency**: Provide to holders all details about the token<br/>
 ** prevent consolidated data <br/>
 
-* **Token Privacy**: Hide token operations to external observers<br/>
+* **CAN Token Privacy**: Hide token operations to external observers<br/>
 ** optionally hide transactions<br/>
 
-* **Token Compliance**: Comply with regulatory requirements<br/>
+* **CAN Token Compliance**: Comply with regulatory requirements<br/>
 ** optionally require KYC<br/>
