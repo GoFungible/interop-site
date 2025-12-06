@@ -48,13 +48,24 @@ const sidebars: SidebarsConfig = {
 		{
 			type: 'doc',
 			id: 'patterns/intro',
-			label: 'Scope of the Problem',
+			label: 'Principles',
 		}, {
 			type: 'html',
       value: '<div class="border border-1 m-3" />',
     }, 	
-		'patterns/erc-20',
-		'patterns/ecosystem',
+		{
+			type: 'category',
+			label: 'ERC-20 Standard',
+			link: {
+				type: "doc",
+				id: 'patterns/erc20/intro',
+			},
+			collapsible: true,
+			items: [
+				'patterns/erc20/ecosystem',
+				'patterns/erc20/scope',
+			]
+		}, 
 		{
 			type: 'category',
 			label: 'Patterns',

@@ -1,0 +1,17 @@
+---
+sidebar_position: 1
+---
+
+# Scope of the Problem
+---
+
+* Capture Token Value
+
+* Maintain integrity of ERC-20 variables
+
+<div style={{textAlign: 'center'}}>
+	<img src="/interop-site/img/drawings/patterns_erc20.svg" width="40%"></img>
+</div>
+<br/>
+
+* Make as friendly and accesible as possible

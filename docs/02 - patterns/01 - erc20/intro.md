@@ -98,8 +98,4 @@ The different implementation correspond to the patterns (depending on where they
 	expandable={true}
 />
 
-<div style={{textAlign: 'center'}}>
-	<img src="/interop-site/img/drawings/patterns_erc20.svg" width="40%"></img>
-</div>
-<br/>
 
