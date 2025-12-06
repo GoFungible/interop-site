@@ -86,7 +86,7 @@ const sidebars: SidebarsConfig = {
 					},
 					collapsible: true,
 					items: [
-						'patterns/issuer/presence/expanding',
+						'patterns/issuer/presence/onboarding',
 						'patterns/issuer/presence/rebalancing',
 						'patterns/issuer/presence/withdrawing',
 					]

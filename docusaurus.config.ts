@@ -96,9 +96,9 @@ const config: Config = {
           type: 'docSidebar',
           sidebarId: 'patternsSidebar',
           position: 'left',
-          label: 'Interoperability Patterns',
+          label: 'Fungible Interoperability Patterns',
         },
-				{to: '/blog', label: 'Blog', position: 'right'},
+				//{to: '/blog', label: 'Blog', position: 'right'},
         {
           href: 'https://github.com/GoFungible',
           label: 'GitHub',
