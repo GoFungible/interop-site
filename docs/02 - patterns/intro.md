@@ -33,10 +33,12 @@ A token is a vehicle to capture and transfer some kind of value. As a consequenc
 **** allow holders moving to the desired network<br/>
 **** allow decentralized intertoken communications<br/>
 
-## OPTIONAL (decided by issuer):
+* **MUST allow holders about governance decisions**<br/>
+** **Token Transparency**: Provide to holders all details about the token<br/>
+**** provide consolidated data <br/>
+** **Token Reporting**: Provide to holders all details about the token<br/>
 
-* **CAN Token Transparency**: Provide to holders all details about the token<br/>
-** prevent consolidated data <br/>
+## OPTIONAL (decided by issuer):
 
 * **CAN Token Privacy**: Hide token operations to external observers<br/>
 ** optionally hide transactions<br/>
