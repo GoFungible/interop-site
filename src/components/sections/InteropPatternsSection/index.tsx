@@ -10,7 +10,7 @@ export default function InteropPatternsSection(): JSX.Element {
 			<GenericSection
 				title="Interoperability Patterns"
 				subtitle="This project identifies interoperability patterns and proposes standardized approaches and delivers implementation backed on the existing relayers."
-				variant="default"
+				variant="secondary"
 				padding="large"
 				headerSpacing="large"
 				headerClassName={styles.heroHeaderContent}

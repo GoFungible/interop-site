@@ -1,6 +1,5 @@
-/* src/components/CardsRow.css */
 .cards-row {
-  margin: 3rem 0;
+  /*margin: 3rem 0;*/
 }
 
 .cards-row__header {
@@ -19,7 +18,7 @@
   text-align: right;
 }
 
-/*.cards-row__title {
+.cards-row__title {
   font-size: 2.5rem;
   margin-bottom: 1.5rem;
   color: var(--ifm-heading-color);
@@ -28,11 +27,12 @@
 .cards-row__description {
   font-size: 1.5rem;
   color: var(--ifm-font-color-base);
+	color: #6c757d;
 }
 
 .cards-row__header--center .cards-row__description {
   margin: 0 auto;
-}*/
+}
 
 .cards-row__header--right .cards-row__description {
   margin-left: auto;

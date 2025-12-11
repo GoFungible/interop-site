@@ -15,12 +15,21 @@ export interface CardsRowProps {
 const EnhancedCardsRow: React.FC<CardsRowProps> = ({ 
   cards, 
   columns = 3,
+  title,
+  description,
+  className = '',
   align = 'center',
 }) => {
   return (
-
+    <section className={`cards-row ${className}`}>
+      {(title || description) && (
+        <div className={`cards-row__header cards-row__header--${align}`}>
+          {title && <h2 className="cards-row__title">{title}</h2>}
+          {description && <p className="cards-row__description">{description}</p>}
+        </div>
+      )}
       
-      <div className={`cards-row__grid cards-row__header--${align} cards-row__grid--${columns}`}>
+      <div className={`cards-row__grid cards-row__grid--${columns}`}>
         {cards.map((card, index) => (
           <EnhancedCard
             key={index}
@@ -37,6 +46,7 @@ const EnhancedCardsRow: React.FC<CardsRowProps> = ({
           />
         ))}
       </div>
+    </section>
   );
 };
 
