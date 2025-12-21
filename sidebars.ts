@@ -101,7 +101,18 @@ const sidebars: SidebarsConfig = {
 			collapsible: true,
 			items: [
 				'patterns/state/storage',
-				'patterns/state/value',
+			]
+		}, 
+		{
+			type: 'category',
+			label: 'Value',
+			link: {
+				type: "doc",
+				id: 'patterns/value/intro',
+			},
+			collapsible: true,
+			items: [
+				'patterns/value/value',
 			]
 		}, 
 		{
