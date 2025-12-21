@@ -88,19 +88,9 @@ const sidebars: SidebarsConfig = {
 			collapsible: true,
 			items: [
 				'patterns/erc20/ecosystem',
+				'patterns/erc20/storage',
+				'patterns/erc20/state',
 				'patterns/erc20/scope',
-			]
-		}, 
-		{
-			type: 'category',
-			label: 'State',
-			link: {
-				type: "doc",
-				id: 'patterns/state/intro',
-			},
-			collapsible: true,
-			items: [
-				'patterns/state/storage',
 			]
 		}, 
 		{
