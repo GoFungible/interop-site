@@ -83,7 +83,7 @@ const config: Config = {
       hideOnScroll: true,
       logo: {
         alt: 'Fungible Interoperability',
-        src: 'img/favicon-32x32.png',
+        src: 'img/favicon-96x96.png',
       },
       items: [
         {

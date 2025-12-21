@@ -25,24 +25,82 @@ const sidebars: SidebarsConfig = {
 		}, {
 			type: 'html',
       value: '<div class="border border-1 m-3" />',
-    }, 
-		'intercom/messages',
-		{
+    }, {
 			type: 'category',
-			label: 'Relayers',
+			label: 'Trust Models',
 			link: {
 				type: "doc",
-				id: 'intercom/relayers/intro',
+				id: 'intercom/trust/intro',
 			},
 			collapsible: true,
 			items: [
-				'intercom/relayers/trusted',
-				'intercom/relayers/trustminimized',
-				'intercom/relayers/trustless',
+				{
+					type: 'category',
+					label: 'Trusted',
+					link: {
+						type: "doc",
+						id: 'intercom/trust/trusted/intro',
+					},
+					collapsible: true,
+					items: [
+						'intercom/trust/trusted/validation',
+					]
+				},
+				{
+					type: 'category',
+					label: 'Trust Minimized',
+					link: {
+						type: "doc",
+						id: 'intercom/trust/minimized/intro',
+					},
+					collapsible: true,
+					items: [
+						'intercom/trust/minimized/intro',
+					]
+				},
+				{
+					type: 'category',
+					label: 'Trustless',
+					link: {
+						type: "doc",
+						id: 'intercom/trust/trustless/intro',
+					},
+					collapsible: true,
+					items: [
+						'intercom/trust/trustless/verification',
+					]
+				},
+			]
+		}, {
+			type: 'category',
+			label: 'Agents',
+			link: {
+				type: "doc",
+				id: 'intercom/agents/intro',
+			},
+			collapsible: true,
+			items: [
+				'intercom/agents/chains',
+				'intercom/agents/relayers',
+				'intercom/agents/validators',
+				'intercom/agents/provers',
+				'intercom/agents/routers',
+				'intercom/agents/sequencers',
+			]
+		}, {
+			type: 'category',
+			label: 'Communication Patterns',
+			link: {
+				type: "doc",
+				id: 'intercom/patterns/intro',
+			},
+			collapsible: true,
+			items: [
+				'intercom/patterns/messages',
+				'intercom/patterns/mailbox',
+				'intercom/patterns/execution',
 			]
 		}, 
-		'intercom/validators',
-		'intercom/mailbox',
   ],
   patternsSidebar: [
 		{
