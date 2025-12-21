@@ -23,6 +23,14 @@ const sidebars: SidebarsConfig = {
 			id: 'intercom/intro',
 			label: 'Intro',
 		}, {
+			type: 'doc',
+			id: 'intercom/direct',
+			label: 'Direct Invocation',
+		}, {
+			type: 'doc',
+			id: 'intercom/model',
+			label: 'Communication Model',
+		}, {
 			type: 'html',
       value: '<div class="border border-1 m-3" />',
     }, {
