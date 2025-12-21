@@ -68,14 +68,15 @@ const sidebars: SidebarsConfig = {
 		}, 
 		{
 			type: 'category',
-			label: 'Value',
+			label: 'State',
 			link: {
 				type: "doc",
-				id: 'patterns/value/intro',
+				id: 'patterns/state/intro',
 			},
 			collapsible: true,
 			items: [
-				'patterns/value/intro',
+				'patterns/state/storage',
+				'patterns/state/value',
 			]
 		}, 
 		{
