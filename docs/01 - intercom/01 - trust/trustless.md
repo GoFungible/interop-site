@@ -2,8 +2,9 @@
 sidebar_position: 1
 ---
 
-# Verification
+# Trustless (Verification)
 ---
 
+## Verification
 
 ## Provers

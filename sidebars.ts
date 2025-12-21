@@ -34,42 +34,9 @@ const sidebars: SidebarsConfig = {
 			},
 			collapsible: true,
 			items: [
-				{
-					type: 'category',
-					label: 'Trusted',
-					link: {
-						type: "doc",
-						id: 'intercom/trust/trusted/intro',
-					},
-					collapsible: true,
-					items: [
-						'intercom/trust/trusted/validation',
-					]
-				},
-				{
-					type: 'category',
-					label: 'Trust Minimized',
-					link: {
-						type: "doc",
-						id: 'intercom/trust/minimized/intro',
-					},
-					collapsible: true,
-					items: [
-						'intercom/trust/minimized/intro',
-					]
-				},
-				{
-					type: 'category',
-					label: 'Trustless',
-					link: {
-						type: "doc",
-						id: 'intercom/trust/trustless/intro',
-					},
-					collapsible: true,
-					items: [
-						'intercom/trust/trustless/verification',
-					]
-				},
+				'intercom/trust/trusted',
+				'intercom/trust/minimized',
+				'intercom/trust/trustless',
 			]
 		}, {
 			type: 'category',
