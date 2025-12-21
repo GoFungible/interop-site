@@ -28,6 +28,6 @@ As smart contracts running in a blockchain, tokens were designed to be isolated.
 
 
 <div style={{textAlign: 'center'}}>
-	<img src="/interop-site/img/drawings/interop_message.svg" width="80%"></img>
+	<img src="/img/drawings/interop_message.svg" width="80%"></img>
 </div>
 <br/>

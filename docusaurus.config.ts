@@ -96,7 +96,7 @@ const config: Config = {
           type: 'docSidebar',
           sidebarId: 'patternsSidebar',
           position: 'left',
-          label: 'Fungible Interoperability Patterns',
+          label: 'Interoperability Patterns',
         },
 				//{to: '/blog', label: 'Blog', position: 'right'},
         {

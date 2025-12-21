@@ -4,8 +4,11 @@ sidebar_position: 1
 
 import CodeShowcase from '@site/src/components/basic/CodeShowcase';
 
-# Principles
+# Requirements
 ---
+
+## Principles
+
 
 A token is a vehicle to capture and transfer some kind of value. As a consequence, it must adhere to some fundamental principles:
 

@@ -48,11 +48,11 @@ const sidebars: SidebarsConfig = {
 		{
 			type: 'doc',
 			id: 'patterns/intro',
-			label: 'Principles',
+			label: 'Requirements',
 		}, {
 			type: 'html',
       value: '<div class="border border-1 m-3" />',
-    }, 	
+    }, 
 		{
 			type: 'category',
 			label: 'ERC-20 Standard',
@@ -64,6 +64,18 @@ const sidebars: SidebarsConfig = {
 			items: [
 				'patterns/erc20/ecosystem',
 				'patterns/erc20/scope',
+			]
+		}, 
+		{
+			type: 'category',
+			label: 'Value',
+			link: {
+				type: "doc",
+				id: 'patterns/value/intro',
+			},
+			collapsible: true,
+			items: [
+				'patterns/value/intro',
 			]
 		}, 
 		{

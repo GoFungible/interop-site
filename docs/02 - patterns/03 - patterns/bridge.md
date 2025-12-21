@@ -13,6 +13,6 @@ sidebar_position: 1
 6	BridgePoly.sol verifies the signatures. If valid, it mints 100 "USDT.e" (wrapped USDT) to the user's Polygon address.	(Polygon Mainnet)<br/>
 
 <div style={{textAlign: 'center'}}>
-	<img src="/interop-site/img/drawings/patterns_bridge.svg" width="80%"></img>
+	<img src="/img/drawings/patterns_bridge.svg" width="80%"></img>
 </div>
 <br/>
