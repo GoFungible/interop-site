@@ -87,6 +87,11 @@ const sidebars: SidebarsConfig = {
       value: '<div class="border border-1 m-3" />',
     }, 
 		{
+			type: 'doc',
+			id: 'patterns/requirements',
+			label: 'Requirements',
+		}, 
+		{
 			type: 'category',
 			label: 'Multichain ERC-20',
 			link: {
@@ -98,23 +103,6 @@ const sidebars: SidebarsConfig = {
 				'patterns/erc20/storage',
 				'patterns/erc20/state',
 			]
-		}, 
-		{
-			type: 'category',
-			label: 'Value',
-			link: {
-				type: "doc",
-				id: 'patterns/value/intro',
-			},
-			collapsible: true,
-			items: [
-				'patterns/value/value',
-			]
-		}, 
-		{
-			type: 'doc',
-			id: 'patterns/requirements',
-			label: 'Requirements',
 		}, 
 		{
 			type: 'category',
