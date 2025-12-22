@@ -1,0 +1,377 @@
+/* src/components/SplitChecklistSection.css */
+
+/* Base container */
+.split-checklist-container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* Grid layout */
+.split-checklist-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 3rem;
+  align-items: center;
+  /*max-width: 1200px;*/
+  margin: 0 auto;
+}
+
+@media (min-width: 1024px) {
+  .split-checklist-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+  }
+}
+
+/* Checklist side */
+.checklist-side {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.checklist-header {
+  margin-bottom: 1.5rem;
+}
+
+.checklist-title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 0 0 2rem 0;
+  color: var(--ifm-heading-color);
+	line-height: 1.3;
+}
+
+
+
+.checklist-subtitle {
+  font-size: 1.5rem;
+  line-height: 1.6;
+  color: var(--ifm-color-emphasis-700);
+  margin: 0;
+}
+
+.dark .checklist-subtitle {
+  color: var(--ifm-color-emphasis-300);
+}
+
+
+/* Footer */
+.checklist-footer {
+  font-size: 1.5rem;
+  line-height: 1.6;
+  color: var(--ifm-color-emphasis-700);
+  margin-top: 2px;
+}
+
+.dark .checklist-footer {
+  border-top-color: var(--ifm-color-emphasis-700);
+  color: var(--ifm-color-emphasis-300);
+}
+
+
+/* Checklist items container */
+.checklist-items-container {
+  width: 100%;
+}
+
+/* Single column layout */
+.checklist-items-single {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+/* Two column layout */
+.checklist-items-double {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+@media (min-width: 640px) {
+  .checklist-items-double {
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem 1.5rem;
+  }
+}
+
+/* Checklist item styles */
+.checklist-item {
+  display: flex;
+  align-items: flex-start;
+  padding: 0.75rem 0;
+  transition: transform 0.2s ease;
+  cursor: pointer;
+  position: relative;
+}
+
+.checklist-item:hover {
+  transform: translateX(4px);
+}
+
+.checklist-item-readonly {
+  cursor: default;
+}
+
+.checklist-item-readonly:hover {
+  transform: none;
+}
+
+/* Checkbox styles */
+.item-checkbox-container {
+  flex-shrink: 0;
+  margin-right: 0.75rem;
+  margin-top: 0.125rem;
+}
+
+.checkbox-root {
+  display: flex;
+  height: 1.25rem;
+  width: 1.25rem;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.375rem;
+  border: 2px solid var(--ifm-color-emphasis-300);
+  background: transparent;
+  cursor: pointer;
+  outline: none;
+  transition: all 0.2s ease;
+}
+
+.checkbox-root:hover {
+  border-color: var(--ifm-color-primary);
+  background-color: var(--ifm-color-emphasis-100);
+}
+
+.dark .checkbox-root {
+  border-color: var(--ifm-color-emphasis-600);
+}
+
+.dark .checkbox-root:hover {
+  border-color: var(--ifm-color-primary);
+  background-color: var(--ifm-color-emphasis-200);
+}
+
+.checkbox-root:focus-visible {
+  outline: 2px solid var(--ifm-color-primary);
+  outline-offset: 2px;
+}
+
+.checkbox-root[data-state="checked"] {
+  background-color: var(--ifm-color-primary);
+  border-color: var(--ifm-color-primary);
+}
+
+.checkbox-indicator {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.readonly-checkbox {
+  display: flex;
+  height: 1.25rem;
+  width: 1.25rem;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.375rem;
+  border: 2px solid var(--ifm-color-emphasis-300);
+  background: transparent;
+}
+
+.readonly-checkbox.checked {
+  background-color: var(--ifm-color-primary);
+  border-color: var(--ifm-color-primary);
+}
+
+.check-icon {
+  color: white;
+}
+
+/* Icon styles */
+.item-icon-container {
+  flex-shrink: 0;
+  margin-right: 0.75rem;
+  margin-top: 0.125rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Content styles */
+.item-content {
+  flex: 1;
+  min-width: 0;
+}
+
+.item-text-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.25rem;
+}
+
+/* Text size classes */
+.text-xs {
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.text-base {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
+.item-label {
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  margin: 0;
+  color: var(--ifm-color-emphasis-900);
+}
+
+.dark .item-label {
+  color: var(--ifm-color-emphasis-100);
+}
+
+.item-label.checked {
+  color: var(--ifm-color-emphasis-500);
+  text-decoration: line-through;
+}
+
+.dark .item-label.checked {
+  color: var(--ifm-color-emphasis-500);
+}
+
+.item-label.readonly {
+  cursor: default;
+}
+
+.item-description {
+  margin: 0;
+  color: var(--ifm-color-emphasis-600);
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.dark .item-description {
+  color: var(--ifm-color-emphasis-400);
+}
+
+/* Image side */
+.image-side {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.image-container {
+  width: 100%;
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.image-wrapper {
+  position: relative;
+  width: 100%;
+  padding-top: 75%; /* 4:3 aspect ratio */
+  overflow: hidden;
+  border-radius: 0.5rem;
+}
+
+.checklist-first .image-wrapper {
+  border-radius: 1rem;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+
+.image-first .image-wrapper {
+  border-radius: 1rem;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+
+.image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.3s ease;
+}
+
+.image:hover {
+  transform: scale(1.05);
+}
+
+
+
+/* Responsive order */
+@media (min-width: 1024px) {
+  .grid-order-1 {
+    order: 1;
+  }
+  
+  .grid-order-2 {
+    order: 2;
+  }
+}
+
+/* Column divider for two columns */
+@media (min-width: 640px) {
+  .checklist-items-double {
+    position: relative;
+  }
+  
+  .checklist-items-double::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    width: 1px;
+    background: linear-gradient(to bottom, 
+      transparent, 
+      var(--ifm-color-emphasis-300), 
+      transparent);
+    transform: translateX(-50%);
+  }
+  
+  .dark .checklist-items-double::before {
+    background: linear-gradient(to bottom, 
+      transparent, 
+      var(--ifm-color-emphasis-700), 
+      transparent);
+  }
+}

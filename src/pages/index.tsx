@@ -3,9 +3,9 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 
 import BackgroundImageHeader from '../components/headers/BackgroundImageHeader';
-import InteropProblemSection from '../components/sections/InteropProblemSection';
+import CommunicationProblemSection from '../components/sections/CommunicationProblemSection';
 import InteropPatternsSection from '../components/sections/InteropPatternsSection';
-import InteropWorkaroundSection from '../components/sections/InteropWorkaroundSection';
+import CommunicationWorkaroundSection from '../components/sections/CommunicationWorkaroundSection';
 
 export default function Home(): ReactNode {
   const {siteConfig} = useDocusaurusContext();
@@ -23,8 +23,8 @@ export default function Home(): ReactNode {
       />
 
 			<main>
-				<InteropProblemSection />
-				<InteropWorkaroundSection />
+				<CommunicationProblemSection />
+				<CommunicationWorkaroundSection />
 				<InteropPatternsSection />
       </main>
 

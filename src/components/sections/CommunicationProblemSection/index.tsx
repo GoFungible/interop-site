@@ -4,11 +4,11 @@ import SplitSection from "../../basic/splitrow/SplitSection";
 import styles from './styles.module.css';
 import GenericSection from "../../basic/GenericSection";
 
-export default function InteropProblemSection(): JSX.Element {
+export default function CommunicationProblemSection(): JSX.Element {
   return (
     
 			<GenericSection
-				title="The Interoperability Problem"
+				title="The Interchain Communication Problem"
 				subtitle="Blockchains were not designed to communicate which each other causing a liquidity fragmentation problem."
 				variant="secondary"
 				padding="large"
