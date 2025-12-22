@@ -2,7 +2,16 @@
 sidebar_position: 1
 ---
 
-# Scope of the Problem
+import CodeShowcase from '@site/src/components/basic/CodeShowcase';
+
+# Requirements
+---
+
+## Principles
+
+
+
+## Scope of the Problem
 ---
 
 * Capture Token Value

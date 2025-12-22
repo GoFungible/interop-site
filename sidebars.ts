@@ -81,7 +81,7 @@ const sidebars: SidebarsConfig = {
 		{
 			type: 'doc',
 			id: 'patterns/intro',
-			label: 'Requirements',
+			label: 'Intro',
 		}, {
 			type: 'html',
       value: '<div class="border border-1 m-3" />',
@@ -98,7 +98,6 @@ const sidebars: SidebarsConfig = {
 				'patterns/erc20/ecosystem',
 				'patterns/erc20/storage',
 				'patterns/erc20/state',
-				'patterns/erc20/scope',
 			]
 		}, 
 		{
@@ -112,6 +111,11 @@ const sidebars: SidebarsConfig = {
 			items: [
 				'patterns/value/value',
 			]
+		}, 
+		{
+			type: 'doc',
+			id: 'patterns/requirements',
+			label: 'Requirements',
 		}, 
 		{
 			type: 'category',
