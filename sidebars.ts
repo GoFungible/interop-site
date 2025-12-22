@@ -95,9 +95,9 @@ const sidebars: SidebarsConfig = {
 			},
 			collapsible: true,
 			items: [
-				'patterns/erc20/ecosystem',
 				'patterns/erc20/storage',
 				'patterns/erc20/state',
+				'patterns/erc20/ecosystem',
 			]
 		}, 
 		{
