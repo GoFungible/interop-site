@@ -6,7 +6,7 @@ import erc from "/static/data/erc.json"
 
 ## Token Limitations
 
-As smart contracts running in a blockchain, tokens were designed to be isolated. DEspite a token can invoke another token in the same blockchin, a token cannot directly invoke another token from a different blockchain.
+As smart contracts running in a blockchain, tokens were designed to be isolated. Despite a token can invoke another token in the same blockchain, a token cannot directly invoke another token from a different blockchain.
 
 <div style={{textAlign: 'center'}}>
 	<img src="/img/drawings/interop_direct.svg" width="80%"></img>

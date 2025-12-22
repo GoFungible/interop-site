@@ -88,7 +88,7 @@ const sidebars: SidebarsConfig = {
     }, 
 		{
 			type: 'category',
-			label: 'ERC-20 Standard',
+			label: 'Multichain ERC-20',
 			link: {
 				type: "doc",
 				id: 'patterns/erc20/intro',
@@ -97,7 +97,6 @@ const sidebars: SidebarsConfig = {
 			items: [
 				'patterns/erc20/storage',
 				'patterns/erc20/state',
-				'patterns/erc20/ecosystem',
 			]
 		}, 
 		{
