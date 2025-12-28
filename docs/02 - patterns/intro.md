@@ -7,6 +7,8 @@ sidebar_position: 1
 
 ## ERC-20 State
 
+The total supply is fixed and cannot be increased for utility tokens.
+
 <div style={{textAlign: 'center'}}>
 	<img src="/img/drawings/patterns_erc20.svg" width="30%"></img>
 </div>
@@ -14,12 +16,37 @@ sidebar_position: 1
 
 ## Multichain ERC-20 State
 
+A multichain token has token instances on multiple chains. Therefore, every chain does not maintain the complete supply. To keep track of this a new supply state must be stored.
+
+The total supply is also fixed and cannot be increased for utility tokens. The issuer can move supply to other chains, e.g. to create new pools, if he is a token holder. The minimum supply needed to move to other chains is the one des not create spillage on exchanges (make calculation).
+
 <br/>
 <div style={{textAlign: 'center'}}>
 	<img src="/img/drawings/patterns_erc20_multichain.svg" width="80%"></img>
 </div>
 <br/>
 
+Questions:
+
+* Networks:
+
+  * there are 3000+ networks so every issuer will decide his own set
+
+  * needed a especial facet to track the actual networks covered by the issuer
+
+  * if we know all networks covered by the issuer, we do not need to store total aggregated supply, it can be calculated off-chain. Maybe is good for security.
+
+  * expandToNetwork / whichdrawFromNetwork
+
+* Registry:
+
+* Contract:
+
+* Factory:
+
+* Functions:
+
+  * how to verify that all networks have the same contract functions?
 
 ## Principles
 
