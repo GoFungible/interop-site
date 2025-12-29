@@ -7,14 +7,18 @@ export type CardVariant = 'default' | 'primary' | 'secondary' | 'success' | 'war
 
 export type Location = 'center' | 'left' | 'right' | 'justify';
 
+export type Color = 'none' | 'default' | 'primary' | 'light' | 'gray' | 'gradient';
+
 export interface BaseCardProps {
   variant?: CardVariant;
   icon?: ReactNode;
   image?: string;
   imageHeight?: string;
   title: string;
-  titleLocation?: string;
+  titleColor?: Color;
+  titleLocation?: Location;
   description: string;
+  descriptionColor?: Color;
   href?: string;
   buttonText?: string;
   onClick?: () => void;
@@ -26,13 +30,16 @@ const EnhancedCard: React.FC<BaseCardProps> = ({
 	image,
 	imageHeight = "120px",
   title, 
+  titleColor = "primary",
   titleLocation = "center", 
   description, 
+  descriptionColor = "primary",
   href, 
   buttonText = "Learn more",
   onClick
 }) => {
-	const titleClass = `card__title text--${titleLocation}`;
+	const titleClass = `card__title text--${titleLocation} color--${titleColor}`;
+	const descriptionClass = `card__description color--${descriptionColor}`;
   const cardContent = (
     <>
       {icon && (
@@ -48,7 +55,7 @@ const EnhancedCard: React.FC<BaseCardProps> = ({
 		  
 			<h3 className={titleClass}>{title}</h3>
 			
-      <p className="card__description">{description}</p>
+      <p className={descriptionClass}>{description}</p>
       {(href || onClick) && (
         <div className="card__button">
           {buttonText}

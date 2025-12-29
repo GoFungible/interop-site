@@ -32,6 +32,7 @@
 }
 
 .card__icon {
+  margin: 0 auto;
   margin-bottom: 1rem;
   color: var(--ifm-color-primary);
 }
@@ -46,11 +47,9 @@
   font-size: 1.25rem;
   font-weight: 600;
   margin-bottom: 0.75rem;
-  color: var(--ifm-heading-color);
 }
 
 .card__description {
-  color: var(--ifm-font-color-base);
   margin-bottom: 1.5rem;
   flex-grow: 1;
 }
@@ -87,4 +86,26 @@
 
 .card--danger {
   border-top: 4px solid var(--ifm-color-danger);
+}
+
+
+
+.color--none {
+  color: transparent;
+}
+
+.color--primary {
+  color: var(--ifm-heading-color);
+}
+
+.color--light {
+  color: var(--ifm-color-emphasis-100);
+}
+
+.color--gray {
+  color: var(--ifm-color-emphasis-500);
+}
+
+.color--gradient {
+  color: linear-gradient(135deg, var(--ifm-color-primary) 0%, var(--ifm-color-secondary) 100%);
 }

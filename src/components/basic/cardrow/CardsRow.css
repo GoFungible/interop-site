@@ -1,3 +1,4 @@
+/* src/components/CardsRow.css */
 .cards-row {
   /*margin: 3rem 0;*/
 }
@@ -27,7 +28,6 @@
 .cards-row__description {
   font-size: 1.5rem;
   color: var(--ifm-font-color-base);
-	color: #6c757d;
 }
 
 .cards-row__header--center .cards-row__description {
@@ -53,6 +53,18 @@
 
 .cards-row__grid--4 {
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.cards-row__grid--5 {
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+.cards-row__grid--6 {
+  grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+}
+
+.cards-row__grid--7 {
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
 }
 
 /* Responsive design */

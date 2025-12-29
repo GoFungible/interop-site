@@ -5,7 +5,7 @@ import './CardsRow.css';
 
 export interface CardsRowProps {
   cards: BaseCardProps[];
-  columns?: 2 | 3 | 4;
+  columns?: 2 | 3 | 4 | 5 | 6 | 7;
   title?: string;
   description?: string;
   className?: string;
@@ -34,8 +34,10 @@ const EnhancedCardsRow: React.FC<CardsRowProps> = ({
           <EnhancedCard
             key={index}
             title={card.title}
+            titleColor={card.titleColor}
             titleLocation={card.titleLocation}
             description={card.description}
+            descriptionColor={card.descriptionColor}
             href={card.href}
             image={card.image}
 						imageHeight={card.imageHeight}
