@@ -101,8 +101,8 @@ const sidebars: SidebarsConfig = {
 			},
 			collapsible: true,
 			items: [
-				'patterns/patterns/masterslavefixed',
-				'patterns/patterns/masterslavevariable',
+				'patterns/patterns/clone',
+				'patterns/patterns/masterslave',
 			]
 		}, 
 		{
