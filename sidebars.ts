@@ -82,20 +82,25 @@ const sidebars: SidebarsConfig = {
 			type: 'doc',
 			id: 'patterns/intro',
 			label: 'Intro',
-		}, {
+		}, 
+		{
 			type: 'html',
       value: '<div class="border border-1 m-3" />',
     }, 
 		{
+			type: 'doc',
+			id: 'patterns/bridge',
+			label: 'Bridge Pattern',
+		}, 
+		{
 			type: 'category',
-			label: 'State Patterns',
+			label: 'Multichain State Patterns',
 			link: {
 				type: "doc",
 				id: 'patterns/patterns/intro',
 			},
 			collapsible: true,
 			items: [
-				'patterns/patterns/bridge',
 				'patterns/patterns/masterslavefixed',
 				'patterns/patterns/masterslavevariable',
 			]

@@ -40,6 +40,8 @@ Questions:
 	  
 		* clone current diamond with no supply
 
+		* guarantee facet version
+
 		* withdraw supply from current network
 
 		* add intended supply to new network
