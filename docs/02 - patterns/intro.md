@@ -36,7 +36,21 @@ Questions:
 
   * if we know all networks covered by the issuer, we do not need to store total aggregated supply, it can be calculated off-chain. Maybe is good for security.
 
-  * expandToNetwork / whichdrawFromNetwork
+  * expandToNetwork
+	  
+		* clone current diamond with no supply
+
+		* withdraw supply from current network
+
+		* add intended supply to new network
+		
+  * expandNetwork
+
+		* withdraw supply from current network
+
+		* add intended supply to new network
+
+  * whichdrawFromNetwork
 
 * Registry:
 
