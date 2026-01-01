@@ -89,8 +89,8 @@ const sidebars: SidebarsConfig = {
     }, 
 		{
 			type: 'doc',
-			id: 'patterns/bridge',
-			label: 'Bridge Pattern',
+			id: 'patterns/state',
+			label: 'Mutichain State',
 		}, 
 		{
 			type: 'category',
@@ -215,7 +215,12 @@ const sidebars: SidebarsConfig = {
 				'patterns/intends/solvers',
 			]
 		}, 
-  ],
+		{
+			type: 'doc',
+			id: 'patterns/bridge',
+			label: 'Bridge Pattern',
+		}, 
+	],
 
 };
 
