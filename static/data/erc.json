@@ -109,6 +109,8 @@
 
 	{ "erc": "ERC-2535", "keywords": "immutability.proxy", "title": "Diamonds, Multi-Facet Proxy", "desc": "Create modular smart contract systems that can be extended after deployment.", "url": "https://eips.ethereum.org/EIPS/eip-2535" },
 	{ "erc": "ERC-8109", "keywords": "immutability.proxy", "title": "Diamonds, Simplified", "desc": "A simplified diamond architecture for modular smart contract systems.", "url": "https://eips.ethereum.org/EIPS/eip-8109" },
+	{ "erc": "ERC-8042", "keywords": "immutability.proxy", "title": "Diamond Storage", "desc": "Define storage locations for structs using human-readable, meaningful strings.", "url": "https://eips.ethereum.org/EIPS/eip-8042" },
+	{ "erc": "ERC-8110", "keywords": "immutability.proxy", "title": "Domain Architecture for Diamonds", "desc": "An architectural pattern that organizes Diamond storage by domain using ERC-8042 identifiers.", "url": "https://eips.ethereum.org/EIPS/eip-8110" },
 	{ "erc": "ERC-1967", "keywords": "immutability.proxy", "title": "Proxy Storage Slots", "desc": "A consistent location where proxies store the address of the logic contract they delegate to, as well as other proxy-specific information.", "url": "https://eips.ethereum.org/EIPS/eip-1967" },
 	{ "erc": "ERC-1822", "keywords": "immutability.proxy", "title": "Universal Upgradeable Proxy Standard (UUPS)", "desc": "Standard upgradeable proxy contract.", "url": "https://eips.ethereum.org/EIPS/eip-1822" },
 	{ "erc": "ERC-1538", "keywords": "immutability.proxy", "title": "Transparent Contract Standard", "desc": "This standard provides a contract architecture that makes upgradeable contracts flexible, unlimited in size, and transparent.", "url": "https://eips.ethereum.org/EIPS/eip-1538" },
