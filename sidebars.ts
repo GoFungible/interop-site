@@ -123,8 +123,9 @@ const sidebars: SidebarsConfig = {
 					},
 					collapsible: true,
 					items: [
-						'patterns/issuer/capture/captureutility',
-						'patterns/issuer/capture/capturevalue',
+						'patterns/issuer/capture/speculative',
+						'patterns/issuer/capture/utility',
+						'patterns/issuer/capture/intrinsic',
 					]
 				}, 
 				{
