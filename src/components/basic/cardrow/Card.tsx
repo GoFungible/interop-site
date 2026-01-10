@@ -22,6 +22,7 @@ export interface BaseCardProps {
   href?: string;
   buttonText?: string;
   onClick?: () => void;
+	crossed?: boolean;
 }
 
 const EnhancedCard: React.FC<BaseCardProps> = ({ 
@@ -36,7 +37,8 @@ const EnhancedCard: React.FC<BaseCardProps> = ({
   descriptionColor = "primary",
   href, 
   buttonText = "Learn more",
-  onClick
+  onClick,
+	crossed = false,
 }) => {
 	const titleClass = `card__title text--${titleLocation} color--${titleColor}`;
 	const descriptionClass = `card__description color--${descriptionColor}`;
@@ -64,7 +66,7 @@ const EnhancedCard: React.FC<BaseCardProps> = ({
     </>
   );
 
-  const cardClass = `card card--${variant} ${onClick ? 'card--clickable' : ''}`;
+  const cardClass = `card card--${variant} ${onClick ? 'card--clickable' : ''} ${crossed ? 'cross' : ''}`;
 
   if (href) {
     return (

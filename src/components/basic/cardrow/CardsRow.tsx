@@ -45,6 +45,7 @@ const EnhancedCardsRow: React.FC<CardsRowProps> = ({
             buttonText={card.buttonText}
             variant={card.variant}
             onClick={card.onClick}
+            crossed={card.crossed}
           />
         ))}
       </div>
