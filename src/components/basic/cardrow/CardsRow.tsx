@@ -8,7 +8,9 @@ export interface CardsRowProps {
   columns?: 2 | 3 | 4 | 5 | 6 | 7;
   title?: string;
   description?: string;
-  className?: string;
+  posttitle?: string;
+  postdescription?: string;
+	className?: string;
   align?: 'left' | 'center' | 'right';
 }
 
@@ -17,7 +19,9 @@ const EnhancedCardsRow: React.FC<CardsRowProps> = ({
   columns = 3,
   title,
   description,
-  className = '',
+  posttitle,
+  postdescription,
+	className = '',
   align = 'center',
 }) => {
   return (
@@ -49,6 +53,14 @@ const EnhancedCardsRow: React.FC<CardsRowProps> = ({
           />
         ))}
       </div>
+
+      {(posttitle || postdescription) && (
+        <div className={`cards-row__footer cards-row__footer--${align}`}>
+          {posttitle && <h2 className="cards-row__posttitle">{posttitle}</h2>}
+          {postdescription && <p className="cards-row__postdescription">{postdescription}</p>}
+        </div>
+      )}
+
     </section>
   );
 };
