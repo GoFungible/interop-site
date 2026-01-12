@@ -103,6 +103,7 @@
 
 	{ "erc": "ERC-7984", "keywords": "principles.privacy", "title": "Confidential Fungible Token", "desc": "Confidential fungible tokens use an account-based accounting model while maintaining the confidentiality of transfer amounts and balances.", "url": "https://eips.ethereum.org/EIPS/eip-7984" },
 	{ "erc": "ERC-7722", "keywords": "principles.privacy", "title": "Opaque Token", "desc": "A token specification designed to enhance privacy by concealing balance information.", "url": "https://eips.ethereum.org/EIPS/eip-7722" },
+	{ "erc": "ERC-8065", "keywords": "principles.privacy", "title": "Zero Knowledge Token Wrapper", "desc": "Enables any token to be wrapped, allowing secretly burnt tokens to be reminted — making privacy a native feature of every token.", "url": "https://eips.ethereum.org/EIPS/eip-8065" },
 
 	{ "erc": "ERC-2980", "keywords": "principles.compliance", "title": "Swiss Compliant Asset Token", "desc": "An interface for asset tokens, compliant with Swiss Law and compatible with [ERC-20](./eip-20.md).", "url": "https://eips.ethereum.org/EIPS/eip-2980" },
 	{ "erc": "ERC-884",  "keywords": "principles.compliance", "title": "DGCL Token", "desc": "An ERC-20 compatible token that conforms to Delaware State Senate, 149th General Assembly, Senate Bill No. 69: An act to Amend Title 8 of the Delaware Code Relating to the General Corporation Law, henceforth referred to as ‘The Act’.", "url": "https://eips.ethereum.org/EIPS/eip-884" },
