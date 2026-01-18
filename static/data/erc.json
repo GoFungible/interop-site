@@ -164,6 +164,7 @@
 	{ "erc": "ERC-7841", "keywords": "interoperability.messaging", "title": "Cross-chain Message Format and Mailbox", "desc": "A mailbox API and message format to provide a unified cross-chain developer experience.", "url": "https://eips.ethereum.org/EIPS/eip-7841" },
 
 	{ "erc": "ERC-5164", "keywords": "interoperability.execution", "title": "Cross-Chain Execution", "desc": "Defines an interface that supports execution across EVM networks.", "url": "https://eips.ethereum.org/EIPS/eip-5164" },
+	{ "erc": "ERC-8121", "keywords": "interoperability.execution", "title": "Cross-Chain Function Calls via Hooks", "desc": "A method for delegating metadata resolution to a different contract via hooks.", "url": "https://github.com/ethereum/ERCs/pull/1456" },
 
 	{ "erc": "ERC-7802", "keywords": "interoperability.bridge", "title": "Token With Mint/Burn Access Across Chains", "desc": "Allow authorized contracts to mint and burn token representations during crosschain transfers", "url": "https://eips.ethereum.org/EIPS/eip-7802" },
 	{ "erc": "ERC-7518", "keywords": "interoperability.bridge", "title": "Dynamic Compliant Interop Security Token", "desc": "Security token framework with semi-fungible partitions for dynamic regulatory compliance management and cross-chain interoperability", "url": "https://eips.ethereum.org/EIPS/eip-7518" },
